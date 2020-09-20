@@ -3,17 +3,15 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://luis-salinas-sd.github.io/guide/</loc>
-    <priority>0</priority>
+    <loc>https://luis-salinas-sd.github.io/guide/javascript/second/</loc>
   </url>
   
   <url>
     <loc>https://luis-salinas-sd.github.io/guide/javascript/</loc>
-    <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://luis-salinas-sd.github.io/guide/javascript/second/</loc>
+    <loc>https://luis-salinas-sd.github.io/guide/</loc>
     <priority>0</priority>
   </url>
   
