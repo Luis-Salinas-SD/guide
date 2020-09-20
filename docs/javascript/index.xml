@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>My New Hugo Site</title>
-    <link>https://luis-salinas-sd.github.io/guide/</link>
+    <link>https://luis-salinas-sd.github.io/guide/javascript/</link>
     <description>Recent content on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://luis-salinas-sd.github.io/guide/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://luis-salinas-sd.github.io/guide/javascript/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
       <link>https://luis-salinas-sd.github.io/guide/javascript/second/</link>

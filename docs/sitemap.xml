@@ -8,11 +8,17 @@
   </url>
   
   <url>
-    <loc>https://luis-salinas-sd.github.io/guide/categories/</loc>
+    <loc>https://luis-salinas-sd.github.io/guide/javascript/</loc>
+    <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://luis-salinas-sd.github.io/guide/</loc>
+    <loc>https://luis-salinas-sd.github.io/guide/javascript/second/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://luis-salinas-sd.github.io/guide/categories/</loc>
   </url>
   
   <url>
