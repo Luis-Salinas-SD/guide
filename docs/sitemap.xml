@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://luis-salinas-sd.github.io/guide/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://luis-salinas-sd.github.io/guide/categories/</loc>
   </url>
   
