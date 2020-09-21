@@ -1,5 +1,10 @@
-### Chapter 1
++++
+title = "Bievenidos"
+chapter = true
+weight = 5
+pre = "<b>1. </b>"
++++
 
-# Basics
+# Bievenidos
 
-Discover what this Hugo theme is all about and the core concepts behind it.
+Esta es una breve guia acerca de Javascript
