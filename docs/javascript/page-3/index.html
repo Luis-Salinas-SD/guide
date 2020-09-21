@@ -9,7 +9,7 @@
 
     <link rel="icon" href="/guide/images/favicon.png" type="image/png">
 
-    <title>Tags :: My New Hugo Site</title>
+    <title>Ciclos :: My New Hugo Site</title>
 
     
     <link href="/guide/css/nucleus.css?1600662694" rel="stylesheet">
@@ -34,7 +34,7 @@
     </style>
     
   </head>
-  <body class="" data-url="/guide/tags/">
+  <body class="" data-url="/guide/javascript/page-3/">
     <nav id="sidebar" class="">
 
 
@@ -95,7 +95,7 @@
   
     
     <li data-nav-id="/guide/javascript/" title="Javascript" class="dd-item 
-        
+        parent
         
         
         ">
@@ -163,7 +163,7 @@
  
   
     
-      <li data-nav-id="/guide/javascript/page-3/" title="Ciclos" class="dd-item ">
+      <li data-nav-id="/guide/javascript/page-3/" title="Ciclos" class="dd-item active">
         <a href="/guide/javascript/page-3/">
         <b>3. </b>Ciclos
         
@@ -257,8 +257,6 @@
                         </a>
                     </span>
                   
-                  <span id="toc-menu"><i class="fas fa-list-alt"></i></span>
-                  
                   <span class="links">
                  
                  
@@ -269,7 +267,13 @@
             
           
           
-            <a href='/guide/'>Bievenidos</a> > Tags
+            
+            
+          
+          
+            <a href='/guide/'>Bievenidos</a> > <a href='/guide/javascript/'>Javascript</a> > Ciclos
+          
+        
           
         
           
@@ -278,13 +282,6 @@
                   </span>
                 </div>
                 
-                    <div class="progress">
-    <div class="wrapper">
-
-    </div>
-</div>
-
-                
               </div>
             </div>
             
@@ -292,31 +289,126 @@
         
         </div>
         
+          <div id="chapter">
+        
         <div id="body-inner">
-          
-            <h1>
-              
-                tag ::
-              
-              Tags
-            </h1>
           
 
         
 
 
-
-
-
+<h3 id="ciclos">Ciclos</h3>
 <ul>
-	
+<li>Ciclo FOR</li>
+<li>imprime una serie del 1 al 10</li>
 </ul>
+<pre><code>for (var i = 1; i &lt;= 15; i++) {
+      alert(i);
+}
+</code></pre><ul>
+<li>imprime los multiplos de 7</li>
+</ul>
+<pre><code>for (let i = 0; i &lt; 50; i++) {
+      if ((i % 7) === 0) {
+            console.log(i);
+      }
+}
+</code></pre><p><em><strong>uso de continue</strong></em></p>
+<ul>
+<li>continue  = ignora la sentencia</li>
+<li>no imprimir los multiplos de 7</li>
+</ul>
+<pre><code>for (let i = 0; i &lt; 50; i++) {
+      if ((i % 7) === 0) {
+            continue
+            console.log(i);
+      }
+      console.log(i);
+}
+</code></pre><ul>
+<li>no imprime los multiplos de 5</li>
+</ul>
+<pre><code>for (let i = 0; i &lt; 10; i++) {
+      if ((i%5) === 0) {
+            continue
+      }
+      console.log(i);
+} 
+</code></pre><ul>
+<li>breake = romper el ciclo despues de llegue a 5</li>
+</ul>
+<pre><code>var n = 0;
+for (let i = 0; i &lt; 50; i++) {
+      if ((i % 7) === 0) {
+            console.log(i);
+            n++;
+      }
+if (n &gt;= 5){
+      break
+}
+}
+</code></pre><ul>
+<li>Ciclo DO-WHILE</li>
+</ul>
+<pre><code>//$ ++++++++++++++++++++++++++++ Ciclo DO-WHILE +++++++++++++++++++++++++++++++++++
+//!numeros del uno al 5
+/* let num =0;
+do {
+   console.log(num);
+  num ++
+} while (num &lt;= 5); */
+//!mini login (solo logica)
+/* var password = 'Luis'
+var pas
+do {
+    var pas = prompt(&quot;Constraseña&quot;);
+} while (password !== pas); */
+</code></pre><ul>
+<li>Ciclo WHILE</li>
+</ul>
+<pre><code>//$ +++++++++++++++++++++++++++++++ Ciclo WHILE ++++++++++++++++++++++++++++++++++++++
+//!Ceunta regresiva del 10 al 0
+/*  var numero = 11;
+while(numero &lt;=10){
+//   alert(numero);
+   numero--
+console.log(numero);
+if (numero === 0){
+break;
+}
+}  */
 
+//!Ejercicio:
+/*var edad = prompt(&quot;Dime tu edad&quot;);
+var num = parseInt(edad, 10);
+ console.log(num);*/
+</code></pre><ul>
+<li>SWITCH</li>
+</ul>
+<pre><code> //$ +++++++++++++++++++++++++++++++ SWITCH +++++++++++++++++++++++++++++++++++++++++
+/* var answer = prompt(&quot;Dame un numero del 1 al 3&quot;)
+ switch (answer) {
+    case '1':
+         alert(&quot;Bad Bunny&quot;);
+         break;
+   case '2':
+         alert(&quot;50 cent&quot;);
+         break;
+   case '3':
+      alert(&quot;Maluma&quot;);
+      break
+    default:
+       alert(&quot;tienes que colocar un numero del 1 al 3&quot;)
+       break;
+ } */
+</code></pre>
 
-<footer class=" footline" >
+<footer class="footline">
 	
 </footer>
 
+        
+            </div> 
         
         </div>
         
@@ -348,8 +440,6 @@
             
                 
                     
-                        
-                        
                     
                 
                 
@@ -363,6 +453,9 @@
             
             
                 
+                    
+                        
+                        
                     
                 
                 
@@ -396,6 +489,7 @@
             
                 
                     
+                    
                 
                 
 
@@ -411,6 +505,9 @@
             
             
                 
+                    
+                        
+                        
                     
                 
                 
@@ -451,8 +548,10 @@
 	 
 	 
 		
+			<a class="nav nav-prev" href="/guide/javascript/page-2/" title="Condicionales"> <i class="fa fa-chevron-left"></i></a>
 		
-			<a class="nav nav-next" href="/guide/javascript/" title="Javascript" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+		
+			<a class="nav nav-next" href="/guide/javascript/page-4/" title="Funciones" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
 		
 	
     </div>
@@ -484,3 +583,4 @@
 
   </body>
 </html>
+

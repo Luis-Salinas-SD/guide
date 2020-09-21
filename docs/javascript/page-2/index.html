@@ -9,7 +9,7 @@
 
     <link rel="icon" href="/guide/images/favicon.png" type="image/png">
 
-    <title>Tags :: My New Hugo Site</title>
+    <title>Condicionales :: My New Hugo Site</title>
 
     
     <link href="/guide/css/nucleus.css?1600662694" rel="stylesheet">
@@ -34,7 +34,7 @@
     </style>
     
   </head>
-  <body class="" data-url="/guide/tags/">
+  <body class="" data-url="/guide/javascript/page-2/">
     <nav id="sidebar" class="">
 
 
@@ -95,7 +95,7 @@
   
     
     <li data-nav-id="/guide/javascript/" title="Javascript" class="dd-item 
-        
+        parent
         
         
         ">
@@ -142,7 +142,7 @@
  
   
     
-      <li data-nav-id="/guide/javascript/page-2/" title="Condicionales" class="dd-item ">
+      <li data-nav-id="/guide/javascript/page-2/" title="Condicionales" class="dd-item active">
         <a href="/guide/javascript/page-2/">
         <b>2. </b>Condicionales
         
@@ -257,8 +257,6 @@
                         </a>
                     </span>
                   
-                  <span id="toc-menu"><i class="fas fa-list-alt"></i></span>
-                  
                   <span class="links">
                  
                  
@@ -269,7 +267,13 @@
             
           
           
-            <a href='/guide/'>Bievenidos</a> > Tags
+            
+            
+          
+          
+            <a href='/guide/'>Bievenidos</a> > <a href='/guide/javascript/'>Javascript</a> > Condicionales
+          
+        
           
         
           
@@ -278,13 +282,6 @@
                   </span>
                 </div>
                 
-                    <div class="progress">
-    <div class="wrapper">
-
-    </div>
-</div>
-
-                
               </div>
             </div>
             
@@ -292,31 +289,47 @@
         
         </div>
         
+          <div id="chapter">
+        
         <div id="body-inner">
-          
-            <h1>
-              
-                tag ::
-              
-              Tags
-            </h1>
           
 
         
 
 
-
-
-
+<h3 id="condicional-if">Condicional <em><strong>if</strong></em></h3>
+<p>Si la primer condicion se cumple, la siguiente no se ejecuta, pero si la primera condición no se cumple se ejecuta la segunda en el if(){}else{}</p>
 <ul>
-	
+<li>condicion <em><strong>if</strong></em></li>
 </ul>
+<pre><code>if(24 === 24 || &quot;hola&quot; === &quot;hola&quot;){
+    alert(true);
+  }else{
+    alert(false);
+  }
+  //true
+</code></pre><ul>
+<li>condicion <em><strong>if( ){ }else{ }</strong></em></li>
+</ul>
+<pre><code>//! Condicional if()else
+ let nota = 10;
+ if (nota &lt;= 7) {
+     console.log(&quot;malo&quot;);
+ }else if (nota == 8) {
+     console.log(&quot;regular&quot;);
+ }else if (nota == 9) {
+     console.log(&quot;bueno&quot;);
+}else{
+    console.log(&quot;Excelente&quot;);
+}
+</code></pre>
 
-
-<footer class=" footline" >
+<footer class="footline">
 	
 </footer>
 
+        
+            </div> 
         
         </div>
         
@@ -348,8 +361,6 @@
             
                 
                     
-                        
-                        
                     
                 
                 
@@ -363,6 +374,9 @@
             
             
                 
+                    
+                        
+                        
                     
                 
                 
@@ -380,6 +394,7 @@
             
                 
                     
+                    
                 
                 
 
@@ -395,6 +410,9 @@
             
             
                 
+                    
+                        
+                        
                     
                 
                 
@@ -451,8 +469,10 @@
 	 
 	 
 		
+			<a class="nav nav-prev" href="/guide/javascript/page-1/" title="Bases"> <i class="fa fa-chevron-left"></i></a>
 		
-			<a class="nav nav-next" href="/guide/javascript/" title="Javascript" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+		
+			<a class="nav nav-next" href="/guide/javascript/page-3/" title="Ciclos" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
 		
 	
     </div>
@@ -484,3 +504,4 @@
 
   </body>
 </html>
+

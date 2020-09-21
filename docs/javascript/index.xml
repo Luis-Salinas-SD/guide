@@ -8,11 +8,49 @@
     <language>en-us</language><atom:link href="https://luis-salinas-sd.github.io/guide/javascript/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Bases</title>
-      <link>https://luis-salinas-sd.github.io/guide/javascript/second/</link>
+      <link>https://luis-salinas-sd.github.io/guide/javascript/page-1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://luis-salinas-sd.github.io/guide/javascript/second/</guid>
-      <description>Bases de Javascript Bienvenido a las bases de Javascript</description>
+      <guid>https://luis-salinas-sd.github.io/guide/javascript/page-1/</guid>
+      <description>Bases de Javascript Bienvenido a una breve explicación sobre lo basico para entender JavaScript Variables y Constantes   Las variables son espacios de memoria reservados para un valor, este puede ser reasignalble, se pueden declarar con &amp;ldquo;var&amp;rdquo; ó &amp;ldquo;let&amp;rdquo;.  let nombre = &amp;quot;Luis&amp;quot;; var apellido = prompt(&#39;¿Cual es su apellido?&#39;);  Las constantes son espacios de memoria pero el valor no puede ser reasignado.(tambien son variables).  const pi = 3.</description>
+    </item>
+    
+    <item>
+      <title>Condicionales</title>
+      <link>https://luis-salinas-sd.github.io/guide/javascript/page-2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://luis-salinas-sd.github.io/guide/javascript/page-2/</guid>
+      <description>Condicional if Si la primer condicion se cumple, la siguiente no se ejecuta, pero si la primera condición no se cumple se ejecuta la segunda en el if(){}else{}
+ condicion if  if(24 === 24 || &amp;quot;hola&amp;quot; === &amp;quot;hola&amp;quot;){ alert(true); }else{ alert(false); } //true  condicion if( ){ }else{ }  //! Condicional if()else let nota = 10; if (nota &amp;lt;= 7) { console.log(&amp;quot;malo&amp;quot;); }else if (nota == 8) { console.</description>
+    </item>
+    
+    <item>
+      <title>Ciclos</title>
+      <link>https://luis-salinas-sd.github.io/guide/javascript/page-3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://luis-salinas-sd.github.io/guide/javascript/page-3/</guid>
+      <description>Ciclos  Ciclo FOR imprime una serie del 1 al 10  for (var i = 1; i &amp;lt;= 15; i++) { alert(i); }  imprime los multiplos de 7  for (let i = 0; i &amp;lt; 50; i++) { if ((i % 7) === 0) { console.log(i); } } uso de continue
+ continue = ignora la sentencia no imprimir los multiplos de 7  for (let i = 0; i &amp;lt; 50; i++) { if ((i % 7) === 0) { continue console.</description>
+    </item>
+    
+    <item>
+      <title>Funciones</title>
+      <link>https://luis-salinas-sd.github.io/guide/javascript/page-4/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://luis-salinas-sd.github.io/guide/javascript/page-4/</guid>
+      <description>Funciones  La definición de una función (también llamada declaración de función o sentencia de función) consiste de la palabra clave (reservada) function, seguida por:  El nombre de la función (opcional). Una lista de argumentos para la función, encerrados entre paréntesis y separados por comas (,). Las sentencias JavaScript que definen la función, encerradas por llaves, { }.   Ejemplo:  function cuadrado(number) { return number * number; } En una funcion imprime un numero del 0 hasta el que el usuario quiere:</description>
+    </item>
+    
+    <item>
+      <title>Arrow-Function</title>
+      <link>https://luis-salinas-sd.github.io/guide/javascript/page-5/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://luis-salinas-sd.github.io/guide/javascript/page-5/</guid>
+      <description></description>
     </item>
     
   </channel>

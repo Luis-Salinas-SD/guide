@@ -9,7 +9,7 @@
 
     <link rel="icon" href="/guide/images/favicon.png" type="image/png">
 
-    <title>Tags :: My New Hugo Site</title>
+    <title>Funciones :: My New Hugo Site</title>
 
     
     <link href="/guide/css/nucleus.css?1600662694" rel="stylesheet">
@@ -34,7 +34,7 @@
     </style>
     
   </head>
-  <body class="" data-url="/guide/tags/">
+  <body class="" data-url="/guide/javascript/page-4/">
     <nav id="sidebar" class="">
 
 
@@ -95,7 +95,7 @@
   
     
     <li data-nav-id="/guide/javascript/" title="Javascript" class="dd-item 
-        
+        parent
         
         
         ">
@@ -184,7 +184,7 @@
  
   
     
-      <li data-nav-id="/guide/javascript/page-4/" title="Funciones" class="dd-item ">
+      <li data-nav-id="/guide/javascript/page-4/" title="Funciones" class="dd-item active">
         <a href="/guide/javascript/page-4/">
         <b>4. </b>Funciones
         
@@ -257,8 +257,6 @@
                         </a>
                     </span>
                   
-                  <span id="toc-menu"><i class="fas fa-list-alt"></i></span>
-                  
                   <span class="links">
                  
                  
@@ -269,7 +267,13 @@
             
           
           
-            <a href='/guide/'>Bievenidos</a> > Tags
+            
+            
+          
+          
+            <a href='/guide/'>Bievenidos</a> > <a href='/guide/javascript/'>Javascript</a> > Funciones
+          
+        
           
         
           
@@ -278,13 +282,6 @@
                   </span>
                 </div>
                 
-                    <div class="progress">
-    <div class="wrapper">
-
-    </div>
-</div>
-
-                
               </div>
             </div>
             
@@ -292,31 +289,71 @@
         
         </div>
         
+          <div id="chapter">
+        
         <div id="body-inner">
-          
-            <h1>
-              
-                tag ::
-              
-              Tags
-            </h1>
           
 
         
 
 
-
-
-
+<h3 id="funciones">Funciones</h3>
 <ul>
-	
+<li>La definición de una función (también llamada declaración de función o sentencia de función) consiste de la palabra clave (reservada)  function, seguida por:
+<ul>
+<li>El nombre de la función (opcional).</li>
+<li>Una lista de argumentos para la función, encerrados entre paréntesis y separados por comas (,).</li>
+<li>Las sentencias JavaScript que definen la función, encerradas por llaves, { }.</li>
 </ul>
+</li>
+<li>Ejemplo:</li>
+</ul>
+<pre><code>function cuadrado(number) {
+  return number * number;
+}
+</code></pre><p>En una funcion imprime un numero del 0 hasta el que el usuario quiere:</p>
+<pre><code>var num = prompt(&quot;introduce un numero&quot;);
 
+function cuenta(num){
+    for(var i=1; i&lt;=num; i++){
+        document.write(i+&quot;\n&quot;);
+    }
+ }cuenta(num);
+</code></pre><p>Funcion que convierte cadenas con minusculas a cadenas con mayusculas</p>
+<pre><code>var nom =  prompt(&quot;Ingresa tu nombre&quot;);
+function NombreMayus(nom){
+nombre = nom.toUpperCase()
+console.log(nombre);
+}NombreMayus(nom);
+</code></pre><p>Funcion que calcula el cuadrado de una funcion</p>
+<pre><code>function cuadrado(numero) {
+    return numero * numero;
+}
+console.log( cuadrado(5));
+</code></pre><p>Funcion dentro de otra Funcion // closure</p>
+<pre><code>function accion(hablar) {
+hablar();
+}
+function decirHola() {
+    console.log(&quot;hola amicos&quot;)
+}
+accion(decirHola);
+</code></pre><p>otro ejemplo de closure</p>
+<pre><code>function accion(hablar) {
+hablar()
+}
+accion(function decirHola(){
+    console.log(&quot;hola amicos como estan&quot;);
+    }
+);
+</code></pre>
 
-<footer class=" footline" >
+<footer class="footline">
 	
 </footer>
 
+        
+            </div> 
         
         </div>
         
@@ -348,8 +385,6 @@
             
                 
                     
-                        
-                        
                     
                 
                 
@@ -363,6 +398,9 @@
             
             
                 
+                    
+                        
+                        
                     
                 
                 
@@ -412,6 +450,7 @@
             
                 
                     
+                    
                 
                 
 
@@ -427,6 +466,9 @@
             
             
                 
+                    
+                        
+                        
                     
                 
                 
@@ -451,8 +493,10 @@
 	 
 	 
 		
+			<a class="nav nav-prev" href="/guide/javascript/page-3/" title="Ciclos"> <i class="fa fa-chevron-left"></i></a>
 		
-			<a class="nav nav-next" href="/guide/javascript/" title="Javascript" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+		
+			<a class="nav nav-next" href="/guide/javascript/page-5/" title="Arrow-Function" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
 		
 	
     </div>
@@ -484,3 +528,4 @@
 
   </body>
 </html>
+
