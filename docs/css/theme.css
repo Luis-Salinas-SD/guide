@@ -325,6 +325,9 @@ textarea:focus, input[type="email"]:focus, input[type="number"]:focus, input[typ
     position: relative;
     margin-left: 300px;
     min-height: 100%;
+    background: #202024;
+    color: wheat;
+    font-size: 19px;
 }
 #body img, #body .video-container {
     margin: 3rem auto;
@@ -430,14 +433,15 @@ textarea:focus, input[type="email"]:focus, input[type="number"]:focus, input[typ
     font-family: "Work Sans", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
     font-weight: 300;
     text-align: center;
+    color: white;
 }
 #chapter h1 {
     font-size: 5rem;
-    border-bottom: 4px solid #F0F2F4;
+    border-bottom: 4px solid #6597CA;
 }
 #chapter p {
-    text-align: center;
-    font-size: 1.2rem;
+    text-align: justify;
+    font-size: 1.5rem;
 }
 #footer {
     padding: 3rem 1rem;
@@ -988,7 +992,7 @@ td {
     background: #34495E;
 }
 #top-bar {
-    background: #F6F6F6;
+    background: #646464;
     border-radius: 2px;
     padding: 0 1rem;
     height: 0;

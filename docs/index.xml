@@ -12,7 +12,8 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://luis-salinas-sd.github.io/guide/javascript/page-1/</guid>
-      <description>Bases de Javascript Bienvenido a una breve explicación sobre lo basico para entender JavaScript Variables y Constantes   Las variables son espacios de memoria reservados para un valor, este puede ser reasignalble, se pueden declarar con &amp;ldquo;var&amp;rdquo; ó &amp;ldquo;let&amp;rdquo;.  let nombre = &amp;quot;Luis&amp;quot;; var apellido = prompt(&#39;¿Cual es su apellido?&#39;);  Las constantes son espacios de memoria pero el valor no puede ser reasignado.(tambien son variables).  const pi = 3.</description>
+      <description>Bases de Javascript Bienvenido a una breve explicación sobre lo basico para entender JavaScript Variables y Constantes  Este texto es un parrafo
+ Las variables son espacios de memoria reservados para un valor, este puede ser reasignalble, se pueden declarar con &amp;ldquo;var&amp;rdquo; ó &amp;ldquo;let&amp;rdquo;.  let nombre = &amp;quot;Luis&amp;quot;; var apellido = prompt(&#39;¿Cual es su apellido?&#39;);  Las constantes son espacios de memoria pero el valor no puede ser reasignado.</description>
     </item>
     
     <item>
@@ -41,7 +42,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://luis-salinas-sd.github.io/guide/javascript/page-4/</guid>
-      <description>Funciones  La definición de una función (también llamada declaración de función o sentencia de función) consiste de la palabra clave (reservada) function, seguida por:  El nombre de la función (opcional). Una lista de argumentos para la función, encerrados entre paréntesis y separados por comas (,). Las sentencias JavaScript que definen la función, encerradas por llaves, { }.   Ejemplo:  function cuadrado(number) { return number * number; } En una funcion imprime un numero del 0 hasta el que el usuario quiere:</description>
+      <description>Funciones  La definición de una función (también llamada declaración de función o sentencia de función) consiste de la palabra clave (reservada) function, seguida por:  El nombre de la función (opcional). Una lista de argumentos para la función, encerrados entre paréntesis y separados por comas (,). Las sentencias JavaScript que definen la función, encerradas por llaves, { }.   Ejemplo:  function cuadrado(number) { return number * number; } funciones declarativas y anonimas Funciones Declarativas:  En las funciones declarativas, utilizamos la palabra reservada function al inicio para poder declarar la función:  function saludar(nombre) { console.</description>
     </item>
     
     <item>

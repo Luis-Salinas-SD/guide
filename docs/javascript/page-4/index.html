@@ -12,19 +12,19 @@
     <title>Funciones :: My New Hugo Site</title>
 
     
-    <link href="/guide/css/nucleus.css?1600662694" rel="stylesheet">
-    <link href="/guide/css/fontawesome-all.min.css?1600662694" rel="stylesheet">
-    <link href="/guide/css/hybrid.css?1600662694" rel="stylesheet">
-    <link href="/guide/css/featherlight.min.css?1600662694" rel="stylesheet">
-    <link href="/guide/css/perfect-scrollbar.min.css?1600662694" rel="stylesheet">
-    <link href="/guide/css/auto-complete.css?1600662694" rel="stylesheet">
-    <link href="/guide/css/atom-one-dark-reasonable.css?1600662694" rel="stylesheet">
-    <link href="/guide/css/theme.css?1600662694" rel="stylesheet">
-    <link href="/guide/css/hugo-theme.css?1600662694" rel="stylesheet">
+    <link href="/guide/css/nucleus.css?1600904297" rel="stylesheet">
+    <link href="/guide/css/fontawesome-all.min.css?1600904297" rel="stylesheet">
+    <link href="/guide/css/hybrid.css?1600904297" rel="stylesheet">
+    <link href="/guide/css/featherlight.min.css?1600904297" rel="stylesheet">
+    <link href="/guide/css/perfect-scrollbar.min.css?1600904297" rel="stylesheet">
+    <link href="/guide/css/auto-complete.css?1600904297" rel="stylesheet">
+    <link href="/guide/css/atom-one-dark-reasonable.css?1600904297" rel="stylesheet">
+    <link href="/guide/css/theme.css?1600904297" rel="stylesheet">
+    <link href="/guide/css/hugo-theme.css?1600904297" rel="stylesheet">
     
     
 
-    <script src="/guide/js/jquery-3.3.1.min.js?1600662694"></script>
+    <script src="/guide/js/jquery-3.3.1.min.js?1600904297"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -69,14 +69,14 @@
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="/guide/js/lunr.min.js?1600662694"></script>
-<script type="text/javascript" src="/guide/js/auto-complete.js?1600662694"></script>
+<script type="text/javascript" src="/guide/js/lunr.min.js?1600904297"></script>
+<script type="text/javascript" src="/guide/js/auto-complete.js?1600904297"></script>
 <script type="text/javascript">
     
         var baseurl = "https:\/\/luis-salinas-sd.github.io\/guide\/";
     
 </script>
-<script type="text/javascript" src="/guide/js/search.js?1600662694"></script>
+<script type="text/javascript" src="/guide/js/search.js?1600904297"></script>
 
     
   </div>
@@ -311,7 +311,26 @@
 <pre><code>function cuadrado(number) {
   return number * number;
 }
-</code></pre><p>En una funcion imprime un numero del 0 hasta el que el usuario quiere:</p>
+</code></pre><h3 id="funciones-declarativas-y-anonimas">funciones declarativas y anonimas</h3>
+<h4 id="funciones-declarativas">Funciones Declarativas:</h4>
+<ul>
+<li>En las funciones declarativas, utilizamos la palabra reservada function al inicio para poder declarar la función:</li>
+</ul>
+<pre><code>function saludar(nombre) {
+   console.log(`Hola ${nombre}`);
+}
+
+saludar('Diego');
+</code></pre><h4 id="funciones-anónimas">Funciones Anónimas:</h4>
+<ul>
+<li>En la expresión de función(anónimas), la declaración se inicia con la palabra reservada var, donde se generará una variable que guardará un función anónima.</li>
+</ul>
+<pre><code>var nombre = function(nombre){
+   console.log(`Hola ${nombre}`)
+}
+
+nombre(‘Diego’);
+</code></pre><h4 id="en-una-funcion-imprime-un-numero-del-0-hasta-el-que-el-usuario-quiere">En una funcion imprime un numero del 0 hasta el que el usuario quiere:</h4>
 <pre><code>var num = prompt(&quot;introduce un numero&quot;);
 
 function cuenta(num){
@@ -319,18 +338,18 @@ function cuenta(num){
         document.write(i+&quot;\n&quot;);
     }
  }cuenta(num);
-</code></pre><p>Funcion que convierte cadenas con minusculas a cadenas con mayusculas</p>
+</code></pre><h4 id="funcion-que-convierte-cadenas-con-minusculas-a-cadenas-con-mayusculas">Funcion que convierte cadenas con minusculas a cadenas con mayusculas</h4>
 <pre><code>var nom =  prompt(&quot;Ingresa tu nombre&quot;);
 function NombreMayus(nom){
 nombre = nom.toUpperCase()
 console.log(nombre);
 }NombreMayus(nom);
-</code></pre><p>Funcion que calcula el cuadrado de una funcion</p>
+</code></pre><h4 id="funcion-que-calcula-el-cuadrado-de-una-funcion">Funcion que calcula el cuadrado de una funcion</h4>
 <pre><code>function cuadrado(numero) {
     return numero * numero;
 }
 console.log( cuadrado(5));
-</code></pre><p>Funcion dentro de otra Funcion // closure</p>
+</code></pre><h4 id="funcion-dentro-de-otra-funcion--closure">Funcion dentro de otra Funcion // closure</h4>
 <pre><code>function accion(hablar) {
 hablar();
 }
@@ -338,7 +357,7 @@ function decirHola() {
     console.log(&quot;hola amicos&quot;)
 }
 accion(decirHola);
-</code></pre><p>otro ejemplo de closure</p>
+</code></pre><h4 id="otro-ejemplo-de-closure">otro ejemplo de closure</h4>
 <pre><code>function accion(hablar) {
 hablar()
 }
@@ -506,19 +525,19 @@ accion(function decirHola(){
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/guide/js/clipboard.min.js?1600662694"></script>
-    <script src="/guide/js/perfect-scrollbar.min.js?1600662694"></script>
-    <script src="/guide/js/perfect-scrollbar.jquery.min.js?1600662694"></script>
-    <script src="/guide/js/jquery.sticky.js?1600662694"></script>
-    <script src="/guide/js/featherlight.min.js?1600662694"></script>
-    <script src="/guide/js/highlight.pack.js?1600662694"></script>
+    <script src="/guide/js/clipboard.min.js?1600904297"></script>
+    <script src="/guide/js/perfect-scrollbar.min.js?1600904297"></script>
+    <script src="/guide/js/perfect-scrollbar.jquery.min.js?1600904297"></script>
+    <script src="/guide/js/jquery.sticky.js?1600904297"></script>
+    <script src="/guide/js/featherlight.min.js?1600904297"></script>
+    <script src="/guide/js/highlight.pack.js?1600904297"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/guide/js/modernizr.custom-3.6.0.js?1600662694"></script>
-    <script src="/guide/js/learn.js?1600662694"></script>
-    <script src="/guide/js/hugo-learn.js?1600662694"></script>
+    <script src="/guide/js/modernizr.custom-3.6.0.js?1600904297"></script>
+    <script src="/guide/js/learn.js?1600904297"></script>
+    <script src="/guide/js/hugo-learn.js?1600904297"></script>
     
         
-            <script src="/guide/mermaid/mermaid.js?1600662694"></script>
+            <script src="/guide/mermaid/mermaid.js?1600904297"></script>
         
         <script>
             mermaid.initialize({ startOnLoad: true });
