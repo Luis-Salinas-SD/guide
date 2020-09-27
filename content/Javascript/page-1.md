@@ -9,15 +9,15 @@ pre = "<b>1. </b>"
 ### Bienvenido a una breve explicación sobre lo basico para entender JavaScript
 
 ### Variables y Constantes <a id="chapter-1"></a>
-Este texto es un parrafo 
-- Las variables son espacios de memoria reservados para un valor, este puede ser reasignalble, se pueden declarar con **_"var"_** ó **_"let"_**.
+
+Las variables son espacios de memoria reservados para un valor, este puede ser reasignalble, se pueden declarar con **_"var"_** ó **_"let"_**.
 
 ```
 let nombre = "Luis";
 var apellido = prompt('¿Cual es su apellido?');
 ```
 
-- Las **_constantes_** son espacios de memoria pero el valor no puede ser reasignado.(tambien son variables).
+Las **_constantes_** son espacios de memoria pero el valor no puede ser reasignado.(tambien son variables).
 
 ```
 const pi = 3.1416;
@@ -25,7 +25,7 @@ const pi = 3.1416;
 
 ### Números y Operadores
 
-- Operaciones aritmeticas basicas.
+Operaciones aritmeticas basicas.
 
 ```
 let suma = 2+2; //4
@@ -39,7 +39,7 @@ console.log(cuad);
 
 ### Booleans
 
-- Los booleanos solo retornar un valor **_true_** o **_false_**.
+Los booleanos solo retornar un valor **_true_** o **_false_**.
 
 ```
 new Boolean(valor)
@@ -50,7 +50,7 @@ new Boolean(valor)
 
 ### Operadores de Comparación. 
 
-- igualdad ==
+igualdad ==
 
 ```
 var igual;
@@ -63,7 +63,7 @@ var igual;
 igual= ('a' === 'a'); //true
 ```
 
-- desigualdad !==
+desigualdad !==
 
 ```
 
@@ -71,7 +71,7 @@ var desigual;
 desigual = ('adios' !== 'hola'); //true
 ```
 
-- Mayor que >
+Mayor que >
 
 ```
 
@@ -79,7 +79,7 @@ var mayor;
 mayor = (6 >= 6); //true
 ```
 
-- Menor que <
+Menor que <
 
 ```
 
@@ -90,7 +90,7 @@ menor = (6 <=6 ); //true
 ### Operadores Lógicos
 
 
-- Los operadores lógicos se usan típicamente con valores Boolean. En tal caso, regresan un valor Boolean (True ó False) y son los siguientes:
+Los operadores lógicos se usan típicamente con valores Boolean. En tal caso, regresan un valor Boolean (True ó False) y son los siguientes:
 - AND
 - OR
 - NOT
@@ -98,7 +98,7 @@ menor = (6 <=6 ); //true
  #### Operador AND
 - EN EL OPERADOR ***AND*** AMBAS CONDICIONES DEBEN SER VERDADERAS(TRUE) DE LO CONTRARIO RETORNA UN VALOR (FALSE)
  ~~~
-//*++++++++++++++++++++++++++++++++++++++++++++++++++ AND +++++++++++++++++++++++++++++++++++++++++++++++++++++
+//*+++++++++ AND +++++++++++
 //# EN EL OPERADOR AND AMBAS CONDICIONES DEBEN SER VERDADERAS(TRUE) DE LO CONTRARIO RETORNA UN VALOR (FALSE)
 if(24 === 24 && "hola" === "hola"){
     alert(true);
@@ -116,9 +116,9 @@ if(24 === 24 && "hola" === 13){
  ~~~
 
   #### Operador OR
-- EN EL OPERADOR OR SOLO UNA CONDICION DEBE SER VERDADERA
+- EN EL OPERADOR OR **SOLO UNA CONDICION DEBE SER VERDADERA**
 ~~~
-//! Operador ++++++++++++++++++++++++++++++++++++++++++ OR +++++++++++++++++++++++++++++++++++++++++++++++++++++
+//! Operador +++++++++++ OR ++++++++++++++
 //# EN EL OPERADOR OR SOLO UNA CONDICION DEBE SER VERDADERA
 
 if(24 === 24 || "hola" === "hola"){
@@ -137,9 +137,9 @@ if(24 === 24 || "hola" === "ADIOS"){
 ~~~
  #### Operador NOT
 
-- sirve para ***negar*** una condicion verdadera con el simbolo !
+- sirve para **negar** una condicion verdadera con el simbolo !
 ~~~
-  //$ ++++++++++++++++++++++++++++++++++++++++++++++++ NOT +++++++++++++++++++++++++++++++++++++++++++++++++++++
+  //$ ++++++++++++++ NOT +++++++++++++++
   //# sirve para negar una condicion verdadera con el simbolo !
 !(25 === 25) || (10 < 5)
 //false
