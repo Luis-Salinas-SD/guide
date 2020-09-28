@@ -4,49 +4,30 @@ chapter = true
 weight = 6
 pre = "<b>6. </b>"
 +++
-### Funciones Flecha
+### Scope
+El scoupe es una colección de variables, funiones y objetos al alacnce del codigo.
 
-Una expresión de **función flecha** es una alternativa compacta a una expresión de función tradicional, **pero es limitada y no se puede utilizar en todas las situaciones.**
-- Funcion convencional:
+exiten dos tipos:
+- Global scoupe [variables globales]
+Las variables globales se pueden mandar a llamar en cualquier parte del programas.
+
+- local scoupe [Variables locales]
+Adiferencia de las globales, las locales solo se pueden declarar en la funciones y pueden ser mandadas a llamar
+en la misma.
 
 ~~~
-function suma(a, b) {
-    return a + b;
-} console.log(suma(5, 5));
-~~~
-- Arrow-function
-~~~
-suma = (a, b) => a + b
-console.log(suma(5, 5)); //10
-~~~
-La sintaxis básica de una _**arrow-function**_ es la siguiente:
-~~~
-nombre_function = (parametros) => {cuerpo_funcion}
-~~~
+var nombre = "Luis";//scoupe global
 
-### Ejemplos:
-imprimir los numeros en pantalla hasta el numero que el usuario teclea
-~~~
-var n = prompt("introduce el numero:");
+function hola() {
+    alert("hola " + nombre);
+}hola();
 
-cuenta = (n) => {
-    for (i = 0; i <= n; i++) {
-        document.writeln(i);
-    }//for
-}//arrow-function cuenta
-cuenta(n);
+function adios(){
+    let nombre = "Ana"; //scoupe local
+    alert("adios " + nombre);
+}adios();
 ~~~
-Aqui hay un objeto llamdo **tutor** y dentro de sus propiedades se encunetra una funcion, que lo que hace es imprimir el nombre con ayuda del metodo **setTimeout** despues de cierto tiempo. 
+- CONST: Es una constante la cual NO cambiara su valor en ningún momento en el futuro.
+- VAR: Es una variable que SI puede cambiar su valor y su scope es local (dentro de una función o del bloque global).
+- LET: Es una variable que también podrá cambiar su valor, pero solo funcionará en el bloque donde fue declarada (ciclos o  condiciones) su alcance es mucho menor que var.
 
-La propiedad que contiene esta funcion es **fullNombre.**
-~~~
-let tutor = {
-    nombre: "Luis",
-    apellido: "Salinas",
-    fullNombre: function () {
-        setTimeout(() => { console.log(this.nombre + " " + this.apellido); }, 1000)
-    }
-}
-// console.log(tutor.apellido);
-tutor.fullNombre();
-~~~

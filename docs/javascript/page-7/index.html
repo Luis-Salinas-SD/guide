@@ -9,22 +9,22 @@
 
     <link rel="icon" href="/guide/images/favicon.png" type="image/png">
 
-    <title>Contesto This :: My New Hugo Site</title>
+    <title>Arreglos :: My New Hugo Site</title>
 
     
-    <link href="/guide/css/nucleus.css?1601175173" rel="stylesheet">
-    <link href="/guide/css/fontawesome-all.min.css?1601175173" rel="stylesheet">
-    <link href="/guide/css/hybrid.css?1601175173" rel="stylesheet">
-    <link href="/guide/css/featherlight.min.css?1601175173" rel="stylesheet">
-    <link href="/guide/css/perfect-scrollbar.min.css?1601175173" rel="stylesheet">
-    <link href="/guide/css/auto-complete.css?1601175173" rel="stylesheet">
-    <link href="/guide/css/atom-one-dark-reasonable.css?1601175173" rel="stylesheet">
-    <link href="/guide/css/theme.css?1601175173" rel="stylesheet">
-    <link href="/guide/css/hugo-theme.css?1601175173" rel="stylesheet">
+    <link href="/guide/css/nucleus.css?1601266675" rel="stylesheet">
+    <link href="/guide/css/fontawesome-all.min.css?1601266675" rel="stylesheet">
+    <link href="/guide/css/hybrid.css?1601266675" rel="stylesheet">
+    <link href="/guide/css/featherlight.min.css?1601266675" rel="stylesheet">
+    <link href="/guide/css/perfect-scrollbar.min.css?1601266675" rel="stylesheet">
+    <link href="/guide/css/auto-complete.css?1601266675" rel="stylesheet">
+    <link href="/guide/css/atom-one-dark-reasonable.css?1601266675" rel="stylesheet">
+    <link href="/guide/css/theme.css?1601266675" rel="stylesheet">
+    <link href="/guide/css/hugo-theme.css?1601266675" rel="stylesheet">
     
     
 
-    <script src="/guide/js/jquery-3.3.1.min.js?1601175173"></script>
+    <script src="/guide/js/jquery-3.3.1.min.js?1601266675"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -69,14 +69,14 @@
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="/guide/js/lunr.min.js?1601175173"></script>
-<script type="text/javascript" src="/guide/js/auto-complete.js?1601175173"></script>
+<script type="text/javascript" src="/guide/js/lunr.min.js?1601266675"></script>
+<script type="text/javascript" src="/guide/js/auto-complete.js?1601266675"></script>
 <script type="text/javascript">
     
         var baseurl = "https:\/\/luis-salinas-sd.github.io\/guide\/";
     
 </script>
-<script type="text/javascript" src="/guide/js/search.js?1601175173"></script>
+<script type="text/javascript" src="/guide/js/search.js?1601266675"></script>
 
     
   </div>
@@ -247,30 +247,9 @@
  
   
     
-      <li data-nav-id="/guide/javascript/page-7/" title="Contesto This" class="dd-item active">
+      <li data-nav-id="/guide/javascript/page-7/" title="Arreglos" class="dd-item active">
         <a href="/guide/javascript/page-7/">
-        <b>7. </b>Contesto This
-        
-        </a>
-    </li>
-     
-  
- 
-
-            
-          
-            
-            
-
-
-
-
- 
-  
-    
-      <li data-nav-id="/guide/javascript/page-8/" title="Arreglos" class="dd-item ">
-        <a href="/guide/javascript/page-8/">
-        <b>8. </b>Arreglos
+        <b>7. </b>Arreglos
         
         </a>
     </li>
@@ -334,7 +313,7 @@
             
           
           
-            <a href='/guide/'>Bievenidos</a> > <a href='/guide/javascript/'>Javascript</a> > Contesto This
+            <a href='/guide/'>Bievenidos</a> > <a href='/guide/javascript/'>Javascript</a> > Arreglos
           
         
           
@@ -360,42 +339,87 @@
         
 
 
-<h3 id="funciones-flecha">Funciones Flecha</h3>
-<p>Una expresión de <strong>función flecha</strong> es una alternativa compacta a una expresión de función tradicional, <strong>pero es limitada y no se puede utilizar en todas las situaciones.</strong></p>
+<h3 id="arreglos">Arreglos</h3>
+<p>Los arrays son objetos similares a una lista cuyo prototipo proporciona métodos para efectuar operaciones de recorrido y de mutación. Tanto la longitud como el tipo de los elementos de un array son variables.</p>
 <ul>
-<li>Funcion convencional:</li>
+<li>Declaración:</li>
 </ul>
-<pre><code>function suma(a, b) {
-    return a + b;
-} console.log(suma(5, 5));
+<pre><code>let arreglo = [&quot;hola&quot;, 1, true, {}];
 </code></pre><ul>
-<li>Arrow-function</li>
+<li>Declración de un arreglo y recorrerlo con un <strong>for</strong></li>
 </ul>
-<pre><code>suma = (a, b) =&gt; a + b
-console.log(suma(5, 5)); //10
-</code></pre><p>La sintaxis básica de una <em><strong>arrow-function</strong></em> es la siguiente:</p>
-<pre><code>nombre_function = (parametros) =&gt; {cuerpo_funcion}
-</code></pre><h3 id="ejemplos">Ejemplos:</h3>
-<p>imprimir los numeros en pantalla hasta el numero que el usuario teclea</p>
-<pre><code>var n = prompt(&quot;introduce el numero:&quot;);
+<pre><code>let arreglo = [5, 9, 6];
 
-cuenta = (n) =&gt; {
-    for (i = 0; i &lt;= n; i++) {
-        document.writeln(i);
-    }//for
-}//arrow-function cuenta
-cuenta(n);
-</code></pre><p>Aqui hay un objeto llamdo <strong>tutor</strong> y dentro de sus propiedades se encunetra una funcion, que lo que hace es imprimir el nombre con ayuda del metodo <strong>setTimeout</strong> despues de cierto tiempo.</p>
-<p>La propiedad que contiene esta funcion es <strong>fullNombre.</strong></p>
-<pre><code>let tutor = {
-    nombre: &quot;Luis&quot;,
-    apellido: &quot;Salinas&quot;,
-    fullNombre: function () {
-        setTimeout(() =&gt; { console.log(this.nombre + &quot; &quot; + this.apellido); }, 1000)
-    }
+for (let i = 0; i &lt; arreglo.length; i++) {
+    const elemento = arreglo[i];
+    console.log(elemento);
 }
-// console.log(tutor.apellido);
-tutor.fullNombre();
+</code></pre><ul>
+<li>
+<p>Agregar y quitar elementos de un arreglo:</p>
+<ul>
+<li>push(); <strong>agrega un elemento al final.</strong></li>
+<li>pop(); <strong>quita el ultimo elemento.</strong></li>
+<li>unshift(); <strong>agrega un elemento al incio.</strong></li>
+<li>shift(); <strong>quita un elemento al inicio.</strong></li>
+</ul>
+</li>
+</ul>
+<pre><code>let array = [50, 53, 100, 45];
+
+array.push(15); //agrega un elemento al final
+array.pop() // quita el ultimo elemento.
+
+array.unshift(&quot;hola&quot;); //agrega un elemento al incio
+array.shift(); //quita un elemento al inicio
+console.log(array);
+</code></pre><ul>
+<li>Agregar y quitar elementos de un arreglo en una <strong>posicion personalizada:</strong></li>
+</ul>
+<pre><code>let names = [&quot;luis&quot;, &quot;ana&quot;, &quot;dan&quot;, &quot;sergio&quot;, &quot;luchita&quot;, &quot;concha&quot;];
+//             0       1      2       3         4          5
+//splice(#indice en el que se agrgaran, #cantidad de elementos que se van a eliminar #valores que se van a aregar 1,2,3...)
+
+names.splice(0, 0, 'Junico', 1);
+console.log(names);
+
+//Elimina el valor o valores en la poscicon descrita en este en la posicion cero vamos a eliminar 3 elementos
+names.splice(0,3);
+console.log(names); // [&quot;sergio&quot;, &quot;luchita&quot;, &quot;concha&quot;]
+
+// Slice extrae en un nuevo array los valores desde [start] hasta [end -1]: No modifia el array original.
+let nuevo = names.slice(1,3);
+console.log(nuevo); //[&quot;ana&quot;, &quot;dan&quot;]
+</code></pre><h3 id="metodos-para-arreglos">Metodos para arreglos</h3>
+<p>1 El siguiente es el arreglo que utilizaremos para ejemplos:</p>
+<pre><code>let arreglo = [10,42,13,34,45,];
+</code></pre><p>2 Recorrer un arreglo con <strong>For</strong></p>
+<pre><code>for (let x = 0; x &lt; arreglo.length; x++) {
+    console.log(arreglo[x]);
+}
+</code></pre><p>3 Recorrer un arreglo con <strong>for of</strong></p>
+<pre><code>for (const item of arreglo) {
+    console.log(item);
+}
+</code></pre><p>4 <strong>forEache()</strong> sirve para recorrer un arreglo</p>
+<pre><code>arreglo.forEach(elemento =&gt; {console.log(elemento);});
+</code></pre><p>5 <strong>some</strong>devuelve true en caso de que el elemento se encuentre en el arreglo</p>
+<pre><code>console.log(arreglo.some(el =&gt; el === 45));
+</code></pre><p>6 <strong>filter()</strong> sirve para eliminar un elemento del arreglo</p>
+<pre><code>arreglo = arreglo.filter((del)=&gt; del != 42)
+console.log(arreglo);
+</code></pre><p>7 <strong>find()</strong> metodo para buscar un elemento dentro del arreglo</p>
+<pre><code>elemento = arreglo.find( num =&gt; num === 10)
+console.log(elemento);
+</code></pre><p>8 <strong>map()</strong> genera un nuevo arreglo para una operacion definida</p>
+<pre><code>let  cuadrado = arreglo.map( (num) =&gt; num * num)
+console.log(cuadrado);
+</code></pre><h3 id="ordenamiento">ordenamiento</h3>
+<pre><code>let arr = [5,6,9,8,5,1,5,8,9]
+
+console.log(arr.sort()); //[1, 5, 5, 5, 6, 8, 8, 9, 9] ordena de menor a mayor
+
+console.log(arr.reverse()); //[9, 9, 8, 8, 6, 5, 5, 5, 1] ordena de mayor a menor
 </code></pre>
 
 <footer class="footline">
@@ -560,25 +584,6 @@ tutor.fullNombre();
             
         
                     
-                        
-            
-            
-                
-                    
-                        
-                        
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
             
         
                     
@@ -594,7 +599,7 @@ tutor.fullNombre();
 			<a class="nav nav-prev" href="/guide/javascript/page-6/" title="Scope"> <i class="fa fa-chevron-left"></i></a>
 		
 		
-			<a class="nav nav-next" href="/guide/javascript/page-8/" title="Arreglos" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+			<a class="nav nav-next" href="/guide/javascript/page-1/" title="Bases" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
 		
 	
     </div>
@@ -604,19 +609,19 @@ tutor.fullNombre();
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/guide/js/clipboard.min.js?1601175173"></script>
-    <script src="/guide/js/perfect-scrollbar.min.js?1601175173"></script>
-    <script src="/guide/js/perfect-scrollbar.jquery.min.js?1601175173"></script>
-    <script src="/guide/js/jquery.sticky.js?1601175173"></script>
-    <script src="/guide/js/featherlight.min.js?1601175173"></script>
-    <script src="/guide/js/highlight.pack.js?1601175173"></script>
+    <script src="/guide/js/clipboard.min.js?1601266675"></script>
+    <script src="/guide/js/perfect-scrollbar.min.js?1601266675"></script>
+    <script src="/guide/js/perfect-scrollbar.jquery.min.js?1601266675"></script>
+    <script src="/guide/js/jquery.sticky.js?1601266675"></script>
+    <script src="/guide/js/featherlight.min.js?1601266675"></script>
+    <script src="/guide/js/highlight.pack.js?1601266675"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/guide/js/modernizr.custom-3.6.0.js?1601175173"></script>
-    <script src="/guide/js/learn.js?1601175173"></script>
-    <script src="/guide/js/hugo-learn.js?1601175173"></script>
+    <script src="/guide/js/modernizr.custom-3.6.0.js?1601266675"></script>
+    <script src="/guide/js/learn.js?1601266675"></script>
+    <script src="/guide/js/hugo-learn.js?1601266675"></script>
     
         
-            <script src="/guide/mermaid/mermaid.js?1601175173"></script>
+            <script src="/guide/mermaid/mermaid.js?1601266675"></script>
         
         <script>
             mermaid.initialize({ startOnLoad: true });
