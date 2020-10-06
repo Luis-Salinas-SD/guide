@@ -80,5 +80,38 @@ exiten dos tipos:
  Declaración:  let arreglo = [&amp;quot;hola&amp;quot;, 1, true, {}];  Declración de un arreglo y recorrerlo con un for  let arreglo = [5, 9, 6]; for (let i = 0; i &amp;lt; arreglo.length; i++) { const elemento = arreglo[i]; console.</description>
     </item>
     
+    <item>
+      <title>Objetos - JSON</title>
+      <link>https://luis-salinas-sd.github.io/guide/javascript/page-8/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://luis-salinas-sd.github.io/guide/javascript/page-8/</guid>
+      <description>Objetos - JSON Declaración de un objeto JSON
+Puede recibir diferentes valores como:
+ arreglos objetos funciones (metodos) booleans enteros strings  let video = { titulo: &amp;quot;piloto&amp;quot;, duración: 2, formato: &amp;quot;avi&amp;quot;, //!arreglo arreglo: [&amp;quot;uno&amp;quot;, &amp;quot;dos&amp;quot;, &amp;quot;tres&amp;quot;], //!metodo inscribir: function (usuario) { console.log(usuario + &amp;quot; Esta inscrito&amp;quot;); } }  Dentro de una objeto las variables son llamada propiedades o atributos.
+  Dentro de un objeto las funciones son llamadas metodos.</description>
+    </item>
+    
+    <item>
+      <title>Funcion constructora</title>
+      <link>https://luis-salinas-sd.github.io/guide/javascript/page-9/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://luis-salinas-sd.github.io/guide/javascript/page-9/</guid>
+      <description>Función Constructura A continuación se muestra una función constructora de objetos, viendo asi cómo podemos construir un objeto o varios a traves de una función.
+ Es importante mencionar que en una función constructora el metodo de esta debe de iniciar con this.nombre_metodo.
+  Función Constructora:  function Curso(titulo, duracion, formato) { //! Propiedades/Atributos this.titulo = titulo; this.duracion = duracion; this.formato = formato; //! Metodo this.inscribir = function (usuario) { console.</description>
+    </item>
+    
+    <item>
+      <title>Clases</title>
+      <link>https://luis-salinas-sd.github.io/guide/javascript/page-10/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://luis-salinas-sd.github.io/guide/javascript/page-10/</guid>
+      <description>Clases Las clases de javascript, introducidas en ECMAScript 2015, son una mejora sintáctica sobre la herencia basada en prototipos de JavaScript. La sintaxis de las clases no introduce un nuevo modelo de herencia orientada a objetos en JavaScript. Las clases de JavaScript proveen una sintaxis mucho más clara y simple para crear objetos y lidiar con la herencia.
+ Las clases son un modelo a seguir Un objeto es una instancia de una clase Los atributos son las caracateristicas o propiedades de objetos Los métodos son acciónes (funciones) que un objeto puede realizar  </description>
+    </item>
+    
   </channel>
 </rss>

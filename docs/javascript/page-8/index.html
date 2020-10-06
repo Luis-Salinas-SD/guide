@@ -9,22 +9,22 @@
 
     <link rel="icon" href="/guide/images/favicon.png" type="image/png">
 
-    <title>Arreglos :: My New Hugo Site</title>
+    <title>Objetos - JSON :: My New Hugo Site</title>
 
     
-    <link href="/guide/css/nucleus.css?1601175173" rel="stylesheet">
-    <link href="/guide/css/fontawesome-all.min.css?1601175173" rel="stylesheet">
-    <link href="/guide/css/hybrid.css?1601175173" rel="stylesheet">
-    <link href="/guide/css/featherlight.min.css?1601175173" rel="stylesheet">
-    <link href="/guide/css/perfect-scrollbar.min.css?1601175173" rel="stylesheet">
-    <link href="/guide/css/auto-complete.css?1601175173" rel="stylesheet">
-    <link href="/guide/css/atom-one-dark-reasonable.css?1601175173" rel="stylesheet">
-    <link href="/guide/css/theme.css?1601175173" rel="stylesheet">
-    <link href="/guide/css/hugo-theme.css?1601175173" rel="stylesheet">
+    <link href="/guide/css/nucleus.css?1602005092" rel="stylesheet">
+    <link href="/guide/css/fontawesome-all.min.css?1602005092" rel="stylesheet">
+    <link href="/guide/css/hybrid.css?1602005092" rel="stylesheet">
+    <link href="/guide/css/featherlight.min.css?1602005092" rel="stylesheet">
+    <link href="/guide/css/perfect-scrollbar.min.css?1602005092" rel="stylesheet">
+    <link href="/guide/css/auto-complete.css?1602005092" rel="stylesheet">
+    <link href="/guide/css/atom-one-dark-reasonable.css?1602005092" rel="stylesheet">
+    <link href="/guide/css/theme.css?1602005092" rel="stylesheet">
+    <link href="/guide/css/hugo-theme.css?1602005092" rel="stylesheet">
     
     
 
-    <script src="/guide/js/jquery-3.3.1.min.js?1601175173"></script>
+    <script src="/guide/js/jquery-3.3.1.min.js?1602005092"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -69,14 +69,14 @@
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="/guide/js/lunr.min.js?1601175173"></script>
-<script type="text/javascript" src="/guide/js/auto-complete.js?1601175173"></script>
+<script type="text/javascript" src="/guide/js/lunr.min.js?1602005092"></script>
+<script type="text/javascript" src="/guide/js/auto-complete.js?1602005092"></script>
 <script type="text/javascript">
     
         var baseurl = "https:\/\/luis-salinas-sd.github.io\/guide\/";
     
 </script>
-<script type="text/javascript" src="/guide/js/search.js?1601175173"></script>
+<script type="text/javascript" src="/guide/js/search.js?1602005092"></script>
 
     
   </div>
@@ -247,9 +247,9 @@
  
   
     
-      <li data-nav-id="/guide/javascript/page-7/" title="Contesto This" class="dd-item ">
+      <li data-nav-id="/guide/javascript/page-7/" title="Arreglos" class="dd-item ">
         <a href="/guide/javascript/page-7/">
-        <b>7. </b>Contesto This
+        <b>7. </b>Arreglos
         
         </a>
     </li>
@@ -268,9 +268,51 @@
  
   
     
-      <li data-nav-id="/guide/javascript/page-8/" title="Arreglos" class="dd-item active">
+      <li data-nav-id="/guide/javascript/page-8/" title="Objetos - JSON" class="dd-item active">
         <a href="/guide/javascript/page-8/">
-        <b>8. </b>Arreglos
+        <b>8. </b>Objetos - JSON
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/guide/javascript/page-9/" title="Funcion constructora" class="dd-item ">
+        <a href="/guide/javascript/page-9/">
+        <b>9. </b>Funcion constructora
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/guide/javascript/page-10/" title="Clases" class="dd-item ">
+        <a href="/guide/javascript/page-10/">
+        <b>10. </b>Clases
         
         </a>
     </li>
@@ -334,7 +376,7 @@
             
           
           
-            <a href='/guide/'>Bievenidos</a> > <a href='/guide/javascript/'>Javascript</a> > Arreglos
+            <a href='/guide/'>Bievenidos</a> > <a href='/guide/javascript/'>Javascript</a> > Objetos - JSON
           
         
           
@@ -360,42 +402,49 @@
         
 
 
-<h3 id="funciones-flecha">Funciones Flecha</h3>
-<p>Una expresión de <strong>función flecha</strong> es una alternativa compacta a una expresión de función tradicional, <strong>pero es limitada y no se puede utilizar en todas las situaciones.</strong></p>
+<h3 id="objetos---json">Objetos - JSON</h3>
+<p>Declaración de un objeto JSON</p>
+<p>Puede recibir diferentes valores como:</p>
 <ul>
-<li>Funcion convencional:</li>
+<li>arreglos</li>
+<li>objetos</li>
+<li>funciones (metodos)</li>
+<li>booleans</li>
+<li>enteros</li>
+<li>strings</li>
 </ul>
-<pre><code>function suma(a, b) {
-    return a + b;
-} console.log(suma(5, 5));
-</code></pre><ul>
-<li>Arrow-function</li>
-</ul>
-<pre><code>suma = (a, b) =&gt; a + b
-console.log(suma(5, 5)); //10
-</code></pre><p>La sintaxis básica de una <em><strong>arrow-function</strong></em> es la siguiente:</p>
-<pre><code>nombre_function = (parametros) =&gt; {cuerpo_funcion}
-</code></pre><h3 id="ejemplos">Ejemplos:</h3>
-<p>imprimir los numeros en pantalla hasta el numero que el usuario teclea</p>
-<pre><code>var n = prompt(&quot;introduce el numero:&quot;);
-
-cuenta = (n) =&gt; {
-    for (i = 0; i &lt;= n; i++) {
-        document.writeln(i);
-    }//for
-}//arrow-function cuenta
-cuenta(n);
-</code></pre><p>Aqui hay un objeto llamdo <strong>tutor</strong> y dentro de sus propiedades se encunetra una funcion, que lo que hace es imprimir el nombre con ayuda del metodo <strong>setTimeout</strong> despues de cierto tiempo.</p>
-<p>La propiedad que contiene esta funcion es <strong>fullNombre.</strong></p>
-<pre><code>let tutor = {
-    nombre: &quot;Luis&quot;,
-    apellido: &quot;Salinas&quot;,
-    fullNombre: function () {
-        setTimeout(() =&gt; { console.log(this.nombre + &quot; &quot; + this.apellido); }, 1000)
+<pre><code>let video = {
+    titulo: &quot;piloto&quot;,
+    duración: 2,
+    formato: &quot;avi&quot;,
+    //!arreglo
+    arreglo: [&quot;uno&quot;, &quot;dos&quot;, &quot;tres&quot;],
+    //!metodo
+    inscribir: function (usuario) {
+        console.log(usuario + &quot; Esta inscrito&quot;);
     }
 }
-// console.log(tutor.apellido);
-tutor.fullNombre();
+</code></pre><blockquote>
+<p>Dentro de una objeto <strong>las variables</strong> son llamada <strong>propiedades o atributos.</strong></p>
+</blockquote>
+<blockquote>
+<p>Dentro de un objeto <strong>las funciones</strong> son llamadas <strong>metodos</strong>.</p>
+</blockquote>
+<p>De acuerdo al objeto anterior esto es lo que podemos hacer.</p>
+<pre><code>//! invocar una propiedad del objeto.
+console.log(video.arreglo);
+
+//! Invocar el metodo
+video.inscribir(&quot;Juan&quot;);
+
+//! Editar alguna propiedad de nuestro objeto
+video.titulo = &quot;Prueba&quot;;
+console.log(video.titulo);
+
+//! Editar alguna metodo de nuestro objeto
+video.inscribir = function () {
+    console.log(&quot;hola soy la funcion editada&quot;);
+}
 </code></pre>
 
 <footer class="footline">
@@ -576,6 +625,41 @@ tutor.fullNombre();
             
         
                     
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
             
         
                     
@@ -588,10 +672,10 @@ tutor.fullNombre();
 	 
 	 
 		
-			<a class="nav nav-prev" href="/guide/javascript/page-7/" title="Contesto This"> <i class="fa fa-chevron-left"></i></a>
+			<a class="nav nav-prev" href="/guide/javascript/page-7/" title="Arreglos"> <i class="fa fa-chevron-left"></i></a>
 		
 		
-			<a class="nav nav-next" href="/guide/javascript/page-1/" title="Bases" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+			<a class="nav nav-next" href="/guide/javascript/page-9/" title="Funcion constructora" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
 		
 	
     </div>
@@ -601,19 +685,19 @@ tutor.fullNombre();
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/guide/js/clipboard.min.js?1601175173"></script>
-    <script src="/guide/js/perfect-scrollbar.min.js?1601175173"></script>
-    <script src="/guide/js/perfect-scrollbar.jquery.min.js?1601175173"></script>
-    <script src="/guide/js/jquery.sticky.js?1601175173"></script>
-    <script src="/guide/js/featherlight.min.js?1601175173"></script>
-    <script src="/guide/js/highlight.pack.js?1601175173"></script>
+    <script src="/guide/js/clipboard.min.js?1602005092"></script>
+    <script src="/guide/js/perfect-scrollbar.min.js?1602005092"></script>
+    <script src="/guide/js/perfect-scrollbar.jquery.min.js?1602005092"></script>
+    <script src="/guide/js/jquery.sticky.js?1602005092"></script>
+    <script src="/guide/js/featherlight.min.js?1602005092"></script>
+    <script src="/guide/js/highlight.pack.js?1602005092"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/guide/js/modernizr.custom-3.6.0.js?1601175173"></script>
-    <script src="/guide/js/learn.js?1601175173"></script>
-    <script src="/guide/js/hugo-learn.js?1601175173"></script>
+    <script src="/guide/js/modernizr.custom-3.6.0.js?1602005092"></script>
+    <script src="/guide/js/learn.js?1602005092"></script>
+    <script src="/guide/js/hugo-learn.js?1602005092"></script>
     
         
-            <script src="/guide/mermaid/mermaid.js?1601175173"></script>
+            <script src="/guide/mermaid/mermaid.js?1602005092"></script>
         
         <script>
             mermaid.initialize({ startOnLoad: true });

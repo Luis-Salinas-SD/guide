@@ -9,7 +9,7 @@
 
     <link rel="icon" href="/guide/images/favicon.png" type="image/png">
 
-    <title>Arrow-Function :: My New Hugo Site</title>
+    <title>Clases :: My New Hugo Site</title>
 
     
     <link href="/guide/css/nucleus.css?1602005092" rel="stylesheet">
@@ -34,7 +34,7 @@
     </style>
     
   </head>
-  <body class="" data-url="/guide/javascript/page-5/">
+  <body class="" data-url="/guide/javascript/page-10/">
     <nav id="sidebar" class="">
 
 
@@ -205,7 +205,7 @@
  
   
     
-      <li data-nav-id="/guide/javascript/page-5/" title="Arrow-Function" class="dd-item active">
+      <li data-nav-id="/guide/javascript/page-5/" title="Arrow-Function" class="dd-item ">
         <a href="/guide/javascript/page-5/">
         <b>5. </b>Arrow-Function
         
@@ -310,7 +310,7 @@
  
   
     
-      <li data-nav-id="/guide/javascript/page-10/" title="Clases" class="dd-item ">
+      <li data-nav-id="/guide/javascript/page-10/" title="Clases" class="dd-item active">
         <a href="/guide/javascript/page-10/">
         <b>10. </b>Clases
         
@@ -376,7 +376,7 @@
             
           
           
-            <a href='/guide/'>Bievenidos</a> > <a href='/guide/javascript/'>Javascript</a> > Arrow-Function
+            <a href='/guide/'>Bievenidos</a> > <a href='/guide/javascript/'>Javascript</a> > Clases
           
         
           
@@ -402,43 +402,15 @@
         
 
 
-<h3 id="funciones-flecha">Funciones Flecha</h3>
-<p>Una expresión de <strong>función flecha</strong> es una alternativa compacta a una expresión de función tradicional, <strong>pero es limitada y no se puede utilizar en todas las situaciones.</strong></p>
+<h3 id="clases">Clases</h3>
+<p>Las clases de javascript, introducidas en ECMAScript 2015, son una mejora sintáctica sobre la herencia basada en prototipos de JavaScript. La sintaxis de las clases no introduce un nuevo modelo de herencia orientada a objetos en JavaScript. Las clases de JavaScript proveen una sintaxis mucho más clara y simple para <strong>crear objetos y lidiar con la herencia.</strong></p>
 <ul>
-<li>Funcion convencional:</li>
+<li>Las <strong>clases</strong> son un modelo a seguir</li>
+<li>Un <strong>objeto</strong> es una instancia de una clase</li>
+<li>Los <strong>atributos</strong> son las caracateristicas o propiedades de objetos</li>
+<li>Los <strong>métodos</strong> son acciónes (funciones) que un objeto puede realizar</li>
 </ul>
-<pre><code>function suma(a, b) {
-    return a + b;
-} console.log(suma(5, 5));
-</code></pre><ul>
-<li>Arrow-function</li>
-</ul>
-<pre><code>suma = (a, b) =&gt; a + b
-console.log(suma(5, 5)); //10
-</code></pre><p>La sintaxis básica de una <em><strong>arrow-function</strong></em> es la siguiente:</p>
-<pre><code>nombre_function = (parametros) =&gt; {cuerpo_funcion}
-</code></pre><h3 id="ejemplos">Ejemplos:</h3>
-<p>imprimir los numeros en pantalla hasta el numero que el usuario teclea</p>
-<pre><code>var n = prompt(&quot;introduce el numero:&quot;);
 
-cuenta = (n) =&gt; {
-    for (i = 0; i &lt;= n; i++) {
-        document.writeln(i);
-    }//for
-}//arrow-function cuenta
-cuenta(n);
-</code></pre><p>Aqui hay un objeto llamdo <strong>tutor</strong> y dentro de sus propiedades se encunetra una funcion, que lo que hace es imprimir el nombre con ayuda del metodo <strong>setTimeout</strong> despues de cierto tiempo.</p>
-<p>La propiedad que contiene esta funcion es <strong>fullNombre.</strong></p>
-<pre><code>let tutor = {
-    nombre: &quot;Luis&quot;,
-    apellido: &quot;Salinas&quot;,
-    fullNombre: function () {
-        setTimeout(() =&gt; { console.log(this.nombre + &quot; &quot; + this.apellido); }, 1000)
-    }
-}
-// console.log(tutor.apellido);
-tutor.fullNombre();
-</code></pre>
 
 <footer class="footline">
 	
@@ -558,26 +530,6 @@ tutor.fullNombre();
             
                 
                     
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                        
-                        
-                    
                 
                 
 
@@ -641,6 +593,23 @@ tutor.fullNombre();
             
             
                 
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
                     
                 
                 
@@ -665,10 +634,10 @@ tutor.fullNombre();
 	 
 	 
 		
-			<a class="nav nav-prev" href="/guide/javascript/page-4/" title="Funciones"> <i class="fa fa-chevron-left"></i></a>
+			<a class="nav nav-prev" href="/guide/javascript/page-9/" title="Funcion constructora"> <i class="fa fa-chevron-left"></i></a>
 		
 		
-			<a class="nav nav-next" href="/guide/javascript/page-6/" title="Scope" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+			<a class="nav nav-next" href="/guide/javascript/page-1/" title="Bases" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
 		
 	
     </div>

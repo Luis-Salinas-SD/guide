@@ -9,7 +9,7 @@
 
     <link rel="icon" href="/guide/images/favicon.png" type="image/png">
 
-    <title>Arrow-Function :: My New Hugo Site</title>
+    <title>Funcion constructora :: My New Hugo Site</title>
 
     
     <link href="/guide/css/nucleus.css?1602005092" rel="stylesheet">
@@ -34,7 +34,7 @@
     </style>
     
   </head>
-  <body class="" data-url="/guide/javascript/page-5/">
+  <body class="" data-url="/guide/javascript/page-9/">
     <nav id="sidebar" class="">
 
 
@@ -205,7 +205,7 @@
  
   
     
-      <li data-nav-id="/guide/javascript/page-5/" title="Arrow-Function" class="dd-item active">
+      <li data-nav-id="/guide/javascript/page-5/" title="Arrow-Function" class="dd-item ">
         <a href="/guide/javascript/page-5/">
         <b>5. </b>Arrow-Function
         
@@ -289,7 +289,7 @@
  
   
     
-      <li data-nav-id="/guide/javascript/page-9/" title="Funcion constructora" class="dd-item ">
+      <li data-nav-id="/guide/javascript/page-9/" title="Funcion constructora" class="dd-item active">
         <a href="/guide/javascript/page-9/">
         <b>9. </b>Funcion constructora
         
@@ -376,7 +376,7 @@
             
           
           
-            <a href='/guide/'>Bievenidos</a> > <a href='/guide/javascript/'>Javascript</a> > Arrow-Function
+            <a href='/guide/'>Bievenidos</a> > <a href='/guide/javascript/'>Javascript</a> > Funcion constructora
           
         
           
@@ -402,42 +402,35 @@
         
 
 
-<h3 id="funciones-flecha">Funciones Flecha</h3>
-<p>Una expresión de <strong>función flecha</strong> es una alternativa compacta a una expresión de función tradicional, <strong>pero es limitada y no se puede utilizar en todas las situaciones.</strong></p>
+<h3 id="función-constructura">Función Constructura</h3>
+<p>A continuación se muestra una función constructora de objetos, viendo asi cómo podemos construir un objeto o varios a traves de una función.</p>
+<blockquote>
+<p>Es importante mencionar que en una <strong>función constructora</strong> el <strong>metodo</strong> de esta debe de iniciar con <strong>this.nombre_metodo</strong>.</p>
+</blockquote>
 <ul>
-<li>Funcion convencional:</li>
+<li>Función Constructora:</li>
 </ul>
-<pre><code>function suma(a, b) {
-    return a + b;
-} console.log(suma(5, 5));
-</code></pre><ul>
-<li>Arrow-function</li>
-</ul>
-<pre><code>suma = (a, b) =&gt; a + b
-console.log(suma(5, 5)); //10
-</code></pre><p>La sintaxis básica de una <em><strong>arrow-function</strong></em> es la siguiente:</p>
-<pre><code>nombre_function = (parametros) =&gt; {cuerpo_funcion}
-</code></pre><h3 id="ejemplos">Ejemplos:</h3>
-<p>imprimir los numeros en pantalla hasta el numero que el usuario teclea</p>
-<pre><code>var n = prompt(&quot;introduce el numero:&quot;);
+<pre><code>function Curso(titulo, duracion, formato) {
+    //! Propiedades/Atributos
+    this.titulo = titulo;
+    this.duracion = duracion;
+    this.formato = formato;
 
-cuenta = (n) =&gt; {
-    for (i = 0; i &lt;= n; i++) {
-        document.writeln(i);
-    }//for
-}//arrow-function cuenta
-cuenta(n);
-</code></pre><p>Aqui hay un objeto llamdo <strong>tutor</strong> y dentro de sus propiedades se encunetra una funcion, que lo que hace es imprimir el nombre con ayuda del metodo <strong>setTimeout</strong> despues de cierto tiempo.</p>
-<p>La propiedad que contiene esta funcion es <strong>fullNombre.</strong></p>
-<pre><code>let tutor = {
-    nombre: &quot;Luis&quot;,
-    apellido: &quot;Salinas&quot;,
-    fullNombre: function () {
-        setTimeout(() =&gt; { console.log(this.nombre + &quot; &quot; + this.apellido); }, 1000)
+    //! Metodo
+    this.inscribir = function (usuario) {
+        console.log(usuario + &quot;Está Inscrito&quot;);
     }
 }
-// console.log(tutor.apellido);
-tutor.fullNombre();
+</code></pre><ul>
+<li>Creación de un objeto apartir de una función constructora:</li>
+</ul>
+<pre><code>let cursoJavaScript = new Curso(&quot;curso java pro&quot;, &quot;5hrs&quot;, &quot;Mp4&quot;);
+let cursoRuby = new Curso(&quot;Curso de Ruby Pro&quot;);
+</code></pre><ul>
+<li>Mandar a llamar el objeto con sus <strong>propiedades/atributos</strong>:</li>
+</ul>
+<pre><code>console.log(cursoJavaScript.titulo, cursoJavaScript.duracion, cursoJavaScript.formato);
+console.log(cursoRuby.titulo);
 </code></pre>
 
 <footer class="footline">
@@ -558,26 +551,6 @@ tutor.fullNombre();
             
                 
                     
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                        
-                        
-                    
                 
                 
 
@@ -641,6 +614,26 @@ tutor.fullNombre();
             
             
                 
+                    
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
                     
                 
                 
@@ -665,10 +658,10 @@ tutor.fullNombre();
 	 
 	 
 		
-			<a class="nav nav-prev" href="/guide/javascript/page-4/" title="Funciones"> <i class="fa fa-chevron-left"></i></a>
+			<a class="nav nav-prev" href="/guide/javascript/page-8/" title="Objetos - JSON"> <i class="fa fa-chevron-left"></i></a>
 		
 		
-			<a class="nav nav-next" href="/guide/javascript/page-6/" title="Scope" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+			<a class="nav nav-next" href="/guide/javascript/page-10/" title="Clases" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
 		
 	
     </div>
