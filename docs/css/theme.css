@@ -50,6 +50,8 @@ body {
 
 body #chapter h1 {
     font-size: 3.5rem;
+    color: aqua;
+    font-weight: bold;
 }
 
 @media only all and (min-width: 48em) and (max-width: 59.938em) {
@@ -531,7 +533,7 @@ textarea:focus, input[type="email"]:focus, input[type="number"]:focus, input[typ
 
 #chapter h1 {
     font-size: 5rem;
-    border-bottom: 4px solid #6597CA;
+    border-bottom: 4px solid aquamarine;
 }
 
 #chapter p {
@@ -1333,6 +1335,13 @@ pre .copy-to-clipboard:hover {
     color: white;
     margin-top: 1rem;
     padding-left: 1rem;
+}
+
+#homelinks {
+    background-color: #9c6fb6;
+    color: #fff;
+    padding: 7px 0;
+    border-bottom: 4px solid #9c6fb6;
 }
 
 #searchResults {
