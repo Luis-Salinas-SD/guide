@@ -5,6 +5,6 @@ weight = 5
 pre = "<b>1. </b>"
 +++
 
-# Bievenidos
+# Bienvenidos
 
-Esta es una breve guia acerca de Javascript
+### Esta es un breve portafolio acerca de varios temas relacionados con la informatica e incluso con las tecnologías en general que se relacionan con la ciencia antes mencionada.
