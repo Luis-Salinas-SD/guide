@@ -1,7 +1,7 @@
 +++
 title = "Javascript"
 chapter = true
-weight = 5
+weight = 15
 pre = "<b>1. </b>"
 +++
 
