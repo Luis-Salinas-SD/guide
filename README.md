@@ -10,4 +10,4 @@ Subir cambios al servidor remoto.
 
 Para modificar aspectos del tema actual el archivo (theme.css) se encuentra en la siguiente dirección.
 
-- /home/luis/guide/themes/hugo/static/css/theme.css
+- guide/themes/hugo/static/css/theme.css
