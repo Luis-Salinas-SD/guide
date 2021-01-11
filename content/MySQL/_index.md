@@ -5,7 +5,7 @@ weight = 15
 pre = "<b>2. </b>"
 +++
 
-### Capitulo 2
+### Capitulo 22
 
 # MySQL
 
