@@ -1,13 +1,19 @@
-# Documentaciones Pagina oficial guide.
+# Docuemtación Pagina oficial guide.
 
-Subir cambios al servidor remoto.
+##### Subir cambios al servidor remoto.
 
 ```
   $ hugo
-  
+
   $ git add *; git commit -m "Actualización prueba"; git push origin master
 ```
 
-Para modificar aspectos del tema actual el archivo (theme.css) se encuentra en la siguiente dirección.
+##### Iniciar el servidor de manera local en segundo plano.
 
-- guide/themes/hugo/static/css/theme.css
+```
+  $ hugo serve -D &
+```
+
+###### Para modificar aspectos del tema actual el archivo (theme.css) se encuentra en la siguiente ruta.
+
+> guide/themes/hugo/static/css/theme.css

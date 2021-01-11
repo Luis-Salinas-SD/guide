@@ -12,19 +12,19 @@
     <title>Bases :: My New Hugo Site</title>
 
     
-    <link href="/guide/css/nucleus.css?1610161114" rel="stylesheet">
-    <link href="/guide/css/fontawesome-all.min.css?1610161114" rel="stylesheet">
-    <link href="/guide/css/hybrid.css?1610161114" rel="stylesheet">
-    <link href="/guide/css/featherlight.min.css?1610161114" rel="stylesheet">
-    <link href="/guide/css/perfect-scrollbar.min.css?1610161114" rel="stylesheet">
-    <link href="/guide/css/auto-complete.css?1610161114" rel="stylesheet">
-    <link href="/guide/css/atom-one-dark-reasonable.css?1610161114" rel="stylesheet">
-    <link href="/guide/css/theme.css?1610161114" rel="stylesheet">
-    <link href="/guide/css/hugo-theme.css?1610161114" rel="stylesheet">
+    <link href="/guide/css/nucleus.css?1610399684" rel="stylesheet">
+    <link href="/guide/css/fontawesome-all.min.css?1610399684" rel="stylesheet">
+    <link href="/guide/css/hybrid.css?1610399684" rel="stylesheet">
+    <link href="/guide/css/featherlight.min.css?1610399684" rel="stylesheet">
+    <link href="/guide/css/perfect-scrollbar.min.css?1610399684" rel="stylesheet">
+    <link href="/guide/css/auto-complete.css?1610399684" rel="stylesheet">
+    <link href="/guide/css/atom-one-dark-reasonable.css?1610399684" rel="stylesheet">
+    <link href="/guide/css/theme.css?1610399684" rel="stylesheet">
+    <link href="/guide/css/hugo-theme.css?1610399684" rel="stylesheet">
     
     
 
-    <script src="/guide/js/jquery-3.3.1.min.js?1610161114"></script>
+    <script src="/guide/js/jquery-3.3.1.min.js?1610399684"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -69,14 +69,14 @@
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="/guide/js/lunr.min.js?1610161114"></script>
-<script type="text/javascript" src="/guide/js/auto-complete.js?1610161114"></script>
+<script type="text/javascript" src="/guide/js/lunr.min.js?1610399684"></script>
+<script type="text/javascript" src="/guide/js/auto-complete.js?1610399684"></script>
 <script type="text/javascript">
     
         var baseurl = "https:\/\/luis-salinas-sd.github.io\/guide\/";
     
 </script>
-<script type="text/javascript" src="/guide/js/search.js?1610161114"></script>
+<script type="text/javascript" src="/guide/js/search.js?1610399684"></script>
 
     
   </div>
@@ -464,7 +464,16 @@
 var apellido = prompt('¿Cual es su apellido?');
 </code></pre><p>Las <strong><em>constantes</em></strong> son espacios de memoria pero el valor no puede ser reasignado.(tambien son variables).</p>
 <pre><code>const pi = 3.1416;
-</code></pre><h3 id="números-y-operadores">Números y Operadores</h3>
+</code></pre><blockquote>
+<p><strong>const:</strong> no puede cambiar el valor.</p>
+</blockquote>
+<blockquote>
+<p><strong>let:</strong> el scope es local.</p>
+</blockquote>
+<blockquote>
+<p><strong>var:</strong> el scope es global (es mejor dejar de utilizar var).</p>
+</blockquote>
+<h3 id="números-y-operadores">Números y Operadores</h3>
 <p>Operaciones aritmeticas basicas.</p>
 <pre><code>let suma = 2+2; //4
 let resta = 2-2; //0
@@ -488,7 +497,10 @@ alert(igual);
 </code></pre><pre><code>var igual;
 igual= ('a' === 'a');
 //true
-</code></pre><p>desigualdad !==</p>
+</code></pre><blockquote>
+<p><strong>===</strong> el comparador identico evalua el tipo de dato y el valor.</p>
+</blockquote>
+<p>desigualdad !==</p>
 <pre><code>
 var desigual;
 desigual = ('adios' !== 'hola'); //true
@@ -512,8 +524,8 @@ menor = (6 &lt;=6 ); //true
 <ul>
 <li>EN EL OPERADOR <strong><em>AND</em></strong> AMBAS CONDICIONES DEBEN SER VERDADERAS(TRUE) DE LO CONTRARIO RETORNA UN VALOR (FALSE)</li>
 </ul>
-<pre><code>//*+++++++++ AND +++++++++++
-//# EN EL OPERADOR AND AMBAS CONDICIONES DEBEN SER VERDADERAS(TRUE) DE LO CONTRARIO RETORNA UN VALOR (FALSE)
+<pre><code>//++ AND ++
+// EN EL OPERADOR AND AMBAS CONDICIONES DEBEN SER VERDADERAS(TRUE) DE LO CONTRARIO RETORNA UN VALOR (FALSE)
 if(24 === 24 &amp;&amp; &quot;hola&quot; === &quot;hola&quot;){
    alert(true);
  }else{
@@ -531,8 +543,8 @@ if(24 === 24 &amp;&amp; &quot;hola&quot; === 13){
 <ul>
 <li>EN EL OPERADOR OR <strong>SOLO UNA CONDICION DEBE SER VERDADERA</strong></li>
 </ul>
-<pre><code>//! Operador +++++++++++ OR ++++++++++++++
-//# EN EL OPERADOR OR SOLO UNA CONDICION DEBE SER VERDADERA
+<pre><code>// ++ OR ++
+// EN EL OPERADOR OR SOLO UNA CONDICION DEBE SER VERDADERA
 
 if(24 === 24 || &quot;hola&quot; === &quot;hola&quot;){
     alert(true);
@@ -551,8 +563,8 @@ if(24 === 24 || &quot;hola&quot; === &quot;ADIOS&quot;){
 <ul>
 <li>sirve para <strong>negar</strong> una condicion verdadera con el simbolo !</li>
 </ul>
-<pre><code>  //$ ++++++++++++++ NOT +++++++++++++++
-  //# sirve para negar una condicion verdadera con el simbolo !
+<pre><code>// ++ NOT ++
+// sirve para negar una condicion verdadera con el simbolo !
 !(25 === 25) || (10 &lt; 5)
 //false
 </code></pre>
@@ -824,19 +836,19 @@ if(24 === 24 || &quot;hola&quot; === &quot;ADIOS&quot;){
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/guide/js/clipboard.min.js?1610161114"></script>
-    <script src="/guide/js/perfect-scrollbar.min.js?1610161114"></script>
-    <script src="/guide/js/perfect-scrollbar.jquery.min.js?1610161114"></script>
-    <script src="/guide/js/jquery.sticky.js?1610161114"></script>
-    <script src="/guide/js/featherlight.min.js?1610161114"></script>
-    <script src="/guide/js/highlight.pack.js?1610161114"></script>
+    <script src="/guide/js/clipboard.min.js?1610399684"></script>
+    <script src="/guide/js/perfect-scrollbar.min.js?1610399684"></script>
+    <script src="/guide/js/perfect-scrollbar.jquery.min.js?1610399684"></script>
+    <script src="/guide/js/jquery.sticky.js?1610399684"></script>
+    <script src="/guide/js/featherlight.min.js?1610399684"></script>
+    <script src="/guide/js/highlight.pack.js?1610399684"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/guide/js/modernizr.custom-3.6.0.js?1610161114"></script>
-    <script src="/guide/js/learn.js?1610161114"></script>
-    <script src="/guide/js/hugo-learn.js?1610161114"></script>
+    <script src="/guide/js/modernizr.custom-3.6.0.js?1610399684"></script>
+    <script src="/guide/js/learn.js?1610399684"></script>
+    <script src="/guide/js/hugo-learn.js?1610399684"></script>
     
         
-            <script src="/guide/mermaid/mermaid.js?1610161114"></script>
+            <script src="/guide/mermaid/mermaid.js?1610399684"></script>
         
         <script>
             mermaid.initialize({ startOnLoad: true });

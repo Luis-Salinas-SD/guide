@@ -24,6 +24,12 @@ Las **_constantes_** son espacios de memoria pero el valor no puede ser reasigna
 const pi = 3.1416;
 ```
 
+> **const:** no puede cambiar el valor.
+
+> **let:** el scope es local.
+
+> **var:** el scope es global (es mejor dejar de utilizar var).
+
 ### Números y Operadores
 
 Operaciones aritmeticas basicas.
@@ -65,6 +71,8 @@ igual= ('a' === 'a');
 //true
 ```
 
+> **===** el comparador identico evalua el tipo de dato y el valor.
+
 desigualdad !==
 
 ```
@@ -104,8 +112,8 @@ Los operadores lógicos se usan típicamente con valores Boolean. En tal caso, r
 - EN EL OPERADOR **_AND_** AMBAS CONDICIONES DEBEN SER VERDADERAS(TRUE) DE LO CONTRARIO RETORNA UN VALOR (FALSE)
 
 ```
-//*+++++++++ AND +++++++++++
-//# EN EL OPERADOR AND AMBAS CONDICIONES DEBEN SER VERDADERAS(TRUE) DE LO CONTRARIO RETORNA UN VALOR (FALSE)
+//++ AND ++
+// EN EL OPERADOR AND AMBAS CONDICIONES DEBEN SER VERDADERAS(TRUE) DE LO CONTRARIO RETORNA UN VALOR (FALSE)
 if(24 === 24 && "hola" === "hola"){
    alert(true);
  }else{
@@ -126,8 +134,8 @@ if(24 === 24 && "hola" === 13){
 - EN EL OPERADOR OR **SOLO UNA CONDICION DEBE SER VERDADERA**
 
 ```
-//! Operador +++++++++++ OR ++++++++++++++
-//# EN EL OPERADOR OR SOLO UNA CONDICION DEBE SER VERDADERA
+// ++ OR ++
+// EN EL OPERADOR OR SOLO UNA CONDICION DEBE SER VERDADERA
 
 if(24 === 24 || "hola" === "hola"){
     alert(true);
@@ -149,8 +157,8 @@ if(24 === 24 || "hola" === "ADIOS"){
 - sirve para **negar** una condicion verdadera con el simbolo !
 
 ```
-  //$ ++++++++++++++ NOT +++++++++++++++
-  //# sirve para negar una condicion verdadera con el simbolo !
+// ++ NOT ++
+// sirve para negar una condicion verdadera con el simbolo !
 !(25 === 25) || (10 < 5)
 //false
 ```

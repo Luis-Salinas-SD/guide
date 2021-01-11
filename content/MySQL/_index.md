@@ -5,8 +5,10 @@ weight = 15
 pre = "<b>2. </b>"
 +++
 
-### Capitulo 22
+### Capitulo 2
 
 # MySQL
 
-<p> JavaScript es un lenguaje de programación o de secuencias de comandos que te permite implementar funciones complejas en páginas web, cada vez que una página web hace algo más que sentarse allí y mostrar información estática para que la veas, muestra oportunas actualizaciones de contenido, mapas interactivos, animación de Gráficos 2D/3D. </p>
+Primero lo primero, tienes que saber cómo pronunciarlo: MY-ES-KYU-EL’
+
+Es un sistema de gestión de bases de datos relacionales de código abierto (RDBMS, por sus siglas en inglés) con un modelo cliente-servidor. RDBMS es un software o servicio utilizado para crear y administrar bases de datos basadas en un modelo relacional
