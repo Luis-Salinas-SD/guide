@@ -18,7 +18,7 @@
 
 > guide/themes/hugo/static/css/theme.css
 
-#### Clonar el repositorio en otro dispositivo
+## Clonar el repositorio en otro dispositivo
 
 **Dispositivo local**
 
