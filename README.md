@@ -1,4 +1,4 @@
-# Docuemtación Pagina oficial guide.
+# Docuemtación Guide.
 
 ##### Subir cambios al servidor remoto.
 
@@ -25,7 +25,7 @@
 - Clonar el repositorio desde git
 
 ```
-  $ git clone <dirección del repo>
+  $ git clone https://github.com/Luis-Salinas-SD/guide.git
 ```
 
 - Una vez en el directorio **guide** debemos ejecutar el siguiente comando.
