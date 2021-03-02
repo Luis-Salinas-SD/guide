@@ -24,13 +24,13 @@
 
 - Clonar el repositorio desde git
 
-```
+```bash
   $ git clone https://github.com/Luis-Salinas-SD/guide.git
 ```
 
 - Una vez en el directorio **guide** debemos ejecutar el siguiente comando.
 
-```
+```bash
 git submodule add https://github.com/matcornic/hugo-theme-learn.git themes/hugoo
 ```
 
