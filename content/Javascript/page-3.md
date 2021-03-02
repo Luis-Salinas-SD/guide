@@ -1,158 +1,131 @@
 +++
-title = "Ciclos"
+title = "Funciones"
 chapter = true
-weight = 3
-pre = "<b>3. </b>"
+weight = 4
+pre = "<b>4. </b>"
 +++
 
-# Ciclos
+### Funciones
 
-## Ciclo For
-
-El bucle FOR se utiliza para repetir una o más instrucciones un determinado número de veces. De entre todos los bucles, el FOR se suele utilizar cuando sabemos seguro el número de veces que queremos que se ejecute. La sintaxis del bucle for se muestra a continuación.
+- La definición de una función consiste de la palabra clave (reservada) function, seguida por:
+  - El **nombre** de la función (opcional).
+  - Una lista de **argumentos** para la función, encerrados entre paréntesis y separados por comas (,).
+  - Las **sentencias** JavaScript que definen la función, encerradas por llaves, { }.
+- Ejemplo:
 
 ```javascript
-for (inicialización; condición; actualización) {
-  //sentencias a ejecutar en cada iteración
+function cuadrado(number) {
+  return number * number;
 }
 ```
 
-- imprime una serie del 1 al 10
+### Funciones **declarativas** y **anónimas**
+
+#### Funciones Declarativas:
+
+- En las funciones declarativas, utilizamos la palabra reservada **function** al inicio para poder declarar la función:
 
 ```javascript
-for (var i = 1; i <= 15; i++) {
-  alert(i);
+function saludar(nombre) {
+  console.log(`Hola ${nombre}`);
 }
+
+saludar("Diego");
 ```
 
-- imprime los multiplos de 7
+#### Funciones Anónimas:
+
+- La declaración se inicia con la palabra reservada (**var, let, const**), donde se generará una variable que guardará un función anónima.
 
 ```javascript
-for (let i = 0; i < 50; i++) {
-  if (i % 7 === 0) {
-    console.log(i);
+var nombre = function (nombre) {
+  console.log(`Hola ${nombre}`);
+};
+
+nombre(`Diego`);
+```
+
+#### En una funcion imprime un numero del 0 hasta el que el usuario quiere:
+
+```javascript
+var num = prompt("introduce un numero");
+
+function cuenta(num) {
+  for (var i = 1; i <= num; i++) {
+    document.write(i + "\n");
   }
 }
+cuenta(num);
 ```
 
-**_uso de continue_**
-
-- continue = ignora la sentencia
-- no imprimir los multiplos de 7
+#### Funcion que convierte cadenas con minusculas a cadenas con mayusculas
 
 ```javascript
-for (let i = 0; i < 50; i++) {
-  if (i % 7 === 0) {
-    continue;
-    console.log(i);
-  }
-  console.log(i);
+var nom = prompt("Ingresa tu nombre");
+function NombreMayus(nom) {
+  nombre = nom.toUpperCase();
+  console.log(nombre);
 }
+NombreMayus(nom);
 ```
 
-- no imprime los multiplos de 5
+#### Funcion que calcula el cuadrado de una funcion
 
 ```javascript
-for (let i = 0; i < 10; i++) {
-  if (i % 5 === 0) {
-    continue;
-  }
-  console.log(i);
+function cuadrado(numero) {
+  return numero * numero;
 }
+console.log(cuadrado(5));
 ```
 
-- breake = romper el ciclo despues de llegue a 5
+### Closure
 
-```javascript
-var n = 0;
-for (let i = 0; i < 50; i++) {
-  if (i % 7 === 0) {
-    console.log(i);
-    n++;
-  }
-  if (n >= 5) {
-    break;
-  }
-}
-```
-
-## Ciclo DO-WHILE
-
-El ciclo do-while primero realiza la acción y despues evalua la condicion.
+Un closure es una función dentro de otra funcion que está disponible sólo dentro del cuerpo de esa fucnión y que tiene accesos a las variables de la función dónde fue declarda.
 
 - sintaxis
 
 ```javascript
-do sentencia;
-while (condición);
-```
-
-Números del 1 al 5
-
-```javascript
-//numeros del uno al 5
-let num = 0;
-do {
-  console.log(num);
-  num++;
-} while (num <= 5);
-```
-
-Mini-loggin
-
-```javascript
-//mini login (solo logica)
-var password = "Luis";
-var pas;
-do {
-  var pas = prompt("Constraseña");
-} while (password !== pas);
-```
-
-## Ciclo WHILE
-
-el ciclo while mientras se cumpla la condicion realiza la sentencia.
-
-- sintaxis
-
-```javascript
-while (condicion) sentencia;
-```
-
-```javascript
-//!Ceunta regresiva del 10 al 0
-var numero = 11;
-while (numero <= 10) {
-  //   alert(numero);
-  numero--;
-  console.log(numero);
-  if (numero === 0) {
-    break;
+// funcion padre
+function iniciar() {
+  let name = "luis";
+  // funcion hijo
+  function mostrar() {
+    console.log(name);
   }
+  mostrar();
 }
-
-//Ejercicio:
-var edad = prompt("Dime tu edad");
-var num = parseInt(edad, 10);
-console.log(num);
+iniciar();
 ```
 
-- SWITCH
+#### otros ejemplos de closure
 
 ```javascript
-var answer = prompt("Dame un numero del 1 al 3");
-switch (answer) {
-  case "1":
-    alert("Bad Bunny");
-    break;
-  case "2":
-    alert("50 cent");
-    break;
-  case "3":
-    alert("Maluma");
-    break;
-  default:
-    alert("tienes que colocar un numero del 1 al 3");
-    break;
+// Funcion 1 () Closure
+function fun1() {
+  fun2();
 }
+fun1(fun2);
+// Funcion 2
+function fun2() {
+  console.log("Adios mundo");
+}
+```
+
+```javascript
+function accion(hablar) {
+  hablar();
+}
+function decirHola() {
+  console.log("hola amicos");
+}
+accion(decirHola);
+```
+
+```javascript
+function accion(hablar) {
+  hablar();
+}
+accion(function decirHola() {
+  console.log("hola amicos como estan");
+});
 ```
