@@ -13,9 +13,9 @@ pre = "<b>1. </b>"
 
 Las variables son espacios de memoria reservados para un valor, este puede ser reasignable, se pueden declarar con **_"var"_** ó **_"let"_**.
 
-```
+```javascript
 let nombre = "Luis";
-var apellido = prompt('¿Cual es su apellido?');
+var apellido = prompt("¿Cual es su apellido?");
 ```
 
 Las **_constantes_** son espacios de memoria pero el valor no puede ser reasignado.(tambien son variables).
@@ -34,13 +34,13 @@ const pi = 3.1416;
 
 Operaciones aritmeticas basicas.
 
-```
-let suma = 2+2; //4
-let resta = 2-2; //0
-let division = 10/2; //5
-let mult = 2*2; //4
-let resi = 9%2; // residuo
-let cuad = 2**3; // 8
+```javascript
+let suma = 2 + 2; //4
+let resta = 2 - 2; //0
+let division = 10 / 2; //5
+let mult = 2 * 2; //4
+let resi = 9 % 2; // residuo
+let cuad = 2 ** 3; // 8
 console.log(cuad);
 ```
 
@@ -48,8 +48,8 @@ console.log(cuad);
 
 Los booleanos solo retornar un valor **_true_** o **_false_**.
 
-```
-new Boolean(valor)
+```javascript
+new Boolean(valor);
 ```
 
 > Valores que retornan **_false_**
@@ -59,15 +59,15 @@ new Boolean(valor)
 
 igualdad == & identico ===
 
-```
+```javascript
 var igual;
-igual = 0 == 0 //true
+igual = 0 == 0; //true
 alert(igual);
 ```
 
-```
+```javascript
 var igual;
-igual= ('a' === 'a');
+igual = "a" === "a";
 //true
 ```
 
@@ -75,26 +75,23 @@ igual= ('a' === 'a');
 
 desigualdad !==
 
-```
-
+```javascript
 var desigual;
-desigual = ('adios' !== 'hola'); //true
+desigual = "adios" !== "hola"; //true
 ```
 
 Mayor que >
 
-```
-
+```javascript
 var mayor;
-mayor = (6 >= 6); //true
+mayor = 6 >= 6; //true
 ```
 
 Menor que <
 
-```
-
+```javascript
 var menor;
-menor = (6 <=6 ); //true
+menor = 6 <= 6; //true
 ```
 
 <a id="chapter-2"></a>
@@ -111,54 +108,47 @@ Los operadores lógicos se usan típicamente con valores Boolean. En tal caso, r
 
 - EN EL OPERADOR **_AND_** AMBAS CONDICIONES DEBEN SER VERDADERAS(TRUE) DE LO CONTRARIO RETORNA UN VALOR (FALSE)
 
-```
-//++ AND ++
-// EN EL OPERADOR AND AMBAS CONDICIONES DEBEN SER VERDADERAS(TRUE) DE LO CONTRARIO RETORNA UN VALOR (FALSE)
-if(24 === 24 && "hola" === "hola"){
-   alert(true);
- }else{
-   alert(false);
- }
+```javascript
+if (24 === 24 && "hola" === "hola") {
+  alert(true);
+} else {
+  alert(false);
+}
 //true
 
-if(24 === 24 && "hola" === 13){
-   alert(true);
- }else{
-   alert(false);
- }
- // false
+if (24 === 24 && "hola" === 13) {
+  alert(true);
+} else {
+  alert(false);
+}
+// false
 ```
 
 #### Operador OR
 
 - EN EL OPERADOR OR **SOLO UNA CONDICION DEBE SER VERDADERA**
 
-```
-// ++ OR ++
-// EN EL OPERADOR OR SOLO UNA CONDICION DEBE SER VERDADERA
+```javascript
+if (24 === 24 || "hola" === "hola") {
+  alert(true);
+} else {
+  alert(false);
+}
+//true
 
-if(24 === 24 || "hola" === "hola"){
-    alert(true);
-  }else{
-    alert(false);
-  }
-//TRUE
-
-if(24 === 24 || "hola" === "ADIOS"){
-    alert(true);
-  }else{
-    alert(false);
-  }
-  //FALSE
+if (24 === 24 || "hola" === "ADIOS") {
+  alert(true);
+} else {
+  alert(false);
+}
+//false
 ```
 
 #### Operador NOT
 
 - sirve para **negar** una condicion verdadera con el simbolo !
 
-```
-// ++ NOT ++
-// sirve para negar una condicion verdadera con el simbolo !
-!(25 === 25) || (10 < 5)
+```javascript
+!(25 === 25) || 10 < 5;
 //false
 ```
