@@ -36,5 +36,5 @@ git submodule add https://github.com/matcornic/hugo-theme-learn.git themes/hugoo
 
 - Debemos remplazar el archivo **theme.css** que se encuntra en la dirección **guide/themes/hugoo/static/static/css** por el archivo **_theme.css_** que se encutra en el home del directorio **guide**.
 - Para finalizar solo debemos editar el archivo **config.toml**, remplazando el parametro theme por `hugoo`
-
+## ¡Importante!
 > _Una vez que se hayan hecho cambios solo se tienen que subir los archivos **.md** que se hayan editado los demas cambios del tema **no** ya que crearian conflicto._
