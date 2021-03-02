@@ -2,7 +2,7 @@
 
 ##### Subir cambios al servidor remoto.
 
-```
+```bash
   $ hugo
 
   $ git add *; git commit -m "Actualización prueba"; git push origin master
@@ -10,7 +10,7 @@
 
 ##### Iniciar el servidor de manera local en segundo plano.
 
-```
+```bash
   $ hugo serve -D &
 ```
 
