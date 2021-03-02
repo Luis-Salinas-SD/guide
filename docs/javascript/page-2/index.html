@@ -12,19 +12,19 @@
     <title>Condicionales :: My New Hugo Site</title>
 
     
-    <link href="/guide/css/nucleus.css?1610587814" rel="stylesheet">
-    <link href="/guide/css/fontawesome-all.min.css?1610587814" rel="stylesheet">
-    <link href="/guide/css/hybrid.css?1610587814" rel="stylesheet">
-    <link href="/guide/css/featherlight.min.css?1610587814" rel="stylesheet">
-    <link href="/guide/css/perfect-scrollbar.min.css?1610587814" rel="stylesheet">
-    <link href="/guide/css/auto-complete.css?1610587814" rel="stylesheet">
-    <link href="/guide/css/atom-one-dark-reasonable.css?1610587814" rel="stylesheet">
-    <link href="/guide/css/theme.css?1610587814" rel="stylesheet">
-    <link href="/guide/css/hugo-theme.css?1610587814" rel="stylesheet">
+    <link href="/guide/css/nucleus.css?1614723805" rel="stylesheet">
+    <link href="/guide/css/fontawesome-all.min.css?1614723805" rel="stylesheet">
+    <link href="/guide/css/hybrid.css?1614723805" rel="stylesheet">
+    <link href="/guide/css/featherlight.min.css?1614723805" rel="stylesheet">
+    <link href="/guide/css/perfect-scrollbar.min.css?1614723805" rel="stylesheet">
+    <link href="/guide/css/auto-complete.css?1614723805" rel="stylesheet">
+    <link href="/guide/css/atom-one-dark-reasonable.css?1614723805" rel="stylesheet">
+    <link href="/guide/css/theme.css?1614723805" rel="stylesheet">
+    <link href="/guide/css/hugo-theme.css?1614723805" rel="stylesheet">
     
     
 
-    <script src="/guide/js/jquery-3.3.1.min.js?1610587814"></script>
+    <script src="/guide/js/jquery-3.3.1.min.js?1614723805"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -69,14 +69,14 @@
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="/guide/js/lunr.min.js?1610587814"></script>
-<script type="text/javascript" src="/guide/js/auto-complete.js?1610587814"></script>
+<script type="text/javascript" src="/guide/js/lunr.min.js?1614723805"></script>
+<script type="text/javascript" src="/guide/js/auto-complete.js?1614723805"></script>
 <script type="text/javascript">
     
         var baseurl = "https:\/\/luis-salinas-sd.github.io\/guide\/";
     
 </script>
-<script type="text/javascript" src="/guide/js/search.js?1610587814"></script>
+<script type="text/javascript" src="/guide/js/search.js?1614723805"></script>
 
     
   </div>
@@ -456,32 +456,32 @@
         
 
 
-<h3 id="condicional-if">Condicional <em><strong>if</strong></em></h3>
+<h3 id="condicional-_if_-y-if-else">Condicional <strong><em>if</em></strong> y <strong>if-else</strong></h3>
 <p>Si la primer condicion se cumple, la siguiente no se ejecuta, pero si la primera condición no se cumple se ejecuta la segunda en el if(){}else{}</p>
 <ul>
-<li>condicion <em><strong>if</strong></em></li>
+<li>condicion <strong><em>if</em></strong></li>
 </ul>
-<pre><code>if(24 === 24 || &quot;hola&quot; === &quot;hola&quot;){
-    alert(true);
-  }else{
-    alert(false);
-  }
-  //true
-</code></pre><ul>
-<li>condicion <em><strong>if( ){ }else{ }</strong></em></li>
-</ul>
-<pre><code>//! Condicional if()else
- let nota = 10;
- if (nota &lt;= 7) {
-     console.log(&quot;malo&quot;);
- }else if (nota == 8) {
-     console.log(&quot;regular&quot;);
- }else if (nota == 9) {
-     console.log(&quot;bueno&quot;);
-}else{
-    console.log(&quot;Excelente&quot;);
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#66d9ef">if</span> (<span style="color:#ae81ff">24</span> <span style="color:#f92672">===</span> <span style="color:#ae81ff">24</span> <span style="color:#f92672">||</span> <span style="color:#e6db74">&#34;hola&#34;</span> <span style="color:#f92672">===</span> <span style="color:#e6db74">&#34;hola&#34;</span>) {
+  <span style="color:#a6e22e">alert</span>(<span style="color:#66d9ef">true</span>);
+} <span style="color:#66d9ef">else</span> {
+  <span style="color:#a6e22e">alert</span>(<span style="color:#66d9ef">false</span>);
 }
-</code></pre>
+<span style="color:#75715e">//true
+</span></code></pre></div><ul>
+<li>condicion <strong><em>if( ){ }else{ }</em></strong></li>
+</ul>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#75715e">//! Condicional if()else
+</span><span style="color:#75715e"></span><span style="color:#66d9ef">let</span> <span style="color:#a6e22e">nota</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">10</span>;
+<span style="color:#66d9ef">if</span> (<span style="color:#a6e22e">nota</span> <span style="color:#f92672">&lt;=</span> <span style="color:#ae81ff">7</span>) {
+  <span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#e6db74">&#34;malo&#34;</span>);
+} <span style="color:#66d9ef">else</span> <span style="color:#66d9ef">if</span> (<span style="color:#a6e22e">nota</span> <span style="color:#f92672">==</span> <span style="color:#ae81ff">8</span>) {
+  <span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#e6db74">&#34;regular&#34;</span>);
+} <span style="color:#66d9ef">else</span> <span style="color:#66d9ef">if</span> (<span style="color:#a6e22e">nota</span> <span style="color:#f92672">==</span> <span style="color:#ae81ff">9</span>) {
+  <span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#e6db74">&#34;bueno&#34;</span>);
+} <span style="color:#66d9ef">else</span> {
+  <span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#e6db74">&#34;Excelente&#34;</span>);
+}
+</code></pre></div>
 
 <footer class="footline">
 	
@@ -753,19 +753,19 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/guide/js/clipboard.min.js?1610587814"></script>
-    <script src="/guide/js/perfect-scrollbar.min.js?1610587814"></script>
-    <script src="/guide/js/perfect-scrollbar.jquery.min.js?1610587814"></script>
-    <script src="/guide/js/jquery.sticky.js?1610587814"></script>
-    <script src="/guide/js/featherlight.min.js?1610587814"></script>
-    <script src="/guide/js/highlight.pack.js?1610587814"></script>
+    <script src="/guide/js/clipboard.min.js?1614723805"></script>
+    <script src="/guide/js/perfect-scrollbar.min.js?1614723805"></script>
+    <script src="/guide/js/perfect-scrollbar.jquery.min.js?1614723805"></script>
+    <script src="/guide/js/jquery.sticky.js?1614723805"></script>
+    <script src="/guide/js/featherlight.min.js?1614723805"></script>
+    <script src="/guide/js/highlight.pack.js?1614723805"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/guide/js/modernizr.custom-3.6.0.js?1610587814"></script>
-    <script src="/guide/js/learn.js?1610587814"></script>
-    <script src="/guide/js/hugo-learn.js?1610587814"></script>
+    <script src="/guide/js/modernizr.custom-3.6.0.js?1614723805"></script>
+    <script src="/guide/js/learn.js?1614723805"></script>
+    <script src="/guide/js/hugo-learn.js?1614723805"></script>
     
         
-            <script src="/guide/mermaid/mermaid.js?1610587814"></script>
+            <script src="/guide/mermaid/mermaid.js?1614723805"></script>
         
         <script>
             mermaid.initialize({ startOnLoad: true });

@@ -12,19 +12,19 @@
     <title>Funciones :: My New Hugo Site</title>
 
     
-    <link href="/guide/css/nucleus.css?1610587814" rel="stylesheet">
-    <link href="/guide/css/fontawesome-all.min.css?1610587814" rel="stylesheet">
-    <link href="/guide/css/hybrid.css?1610587814" rel="stylesheet">
-    <link href="/guide/css/featherlight.min.css?1610587814" rel="stylesheet">
-    <link href="/guide/css/perfect-scrollbar.min.css?1610587814" rel="stylesheet">
-    <link href="/guide/css/auto-complete.css?1610587814" rel="stylesheet">
-    <link href="/guide/css/atom-one-dark-reasonable.css?1610587814" rel="stylesheet">
-    <link href="/guide/css/theme.css?1610587814" rel="stylesheet">
-    <link href="/guide/css/hugo-theme.css?1610587814" rel="stylesheet">
+    <link href="/guide/css/nucleus.css?1614723805" rel="stylesheet">
+    <link href="/guide/css/fontawesome-all.min.css?1614723805" rel="stylesheet">
+    <link href="/guide/css/hybrid.css?1614723805" rel="stylesheet">
+    <link href="/guide/css/featherlight.min.css?1614723805" rel="stylesheet">
+    <link href="/guide/css/perfect-scrollbar.min.css?1614723805" rel="stylesheet">
+    <link href="/guide/css/auto-complete.css?1614723805" rel="stylesheet">
+    <link href="/guide/css/atom-one-dark-reasonable.css?1614723805" rel="stylesheet">
+    <link href="/guide/css/theme.css?1614723805" rel="stylesheet">
+    <link href="/guide/css/hugo-theme.css?1614723805" rel="stylesheet">
     
     
 
-    <script src="/guide/js/jquery-3.3.1.min.js?1610587814"></script>
+    <script src="/guide/js/jquery-3.3.1.min.js?1614723805"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -69,14 +69,14 @@
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="/guide/js/lunr.min.js?1610587814"></script>
-<script type="text/javascript" src="/guide/js/auto-complete.js?1610587814"></script>
+<script type="text/javascript" src="/guide/js/lunr.min.js?1614723805"></script>
+<script type="text/javascript" src="/guide/js/auto-complete.js?1614723805"></script>
 <script type="text/javascript">
     
         var baseurl = "https:\/\/luis-salinas-sd.github.io\/guide\/";
     
 </script>
-<script type="text/javascript" src="/guide/js/search.js?1610587814"></script>
+<script type="text/javascript" src="/guide/js/search.js?1614723805"></script>
 
     
   </div>
@@ -458,73 +458,97 @@
 
 <h3 id="funciones">Funciones</h3>
 <ul>
-<li>La definición de una función (también llamada declaración de función o sentencia de función) consiste de la palabra clave (reservada)  function, seguida por:
+<li>La definición de una función consiste de la palabra clave (reservada) function, seguida por:
 <ul>
-<li>El nombre de la función (opcional).</li>
-<li>Una lista de argumentos para la función, encerrados entre paréntesis y separados por comas (,).</li>
-<li>Las sentencias JavaScript que definen la función, encerradas por llaves, { }.</li>
+<li>El <strong>nombre</strong> de la función (opcional).</li>
+<li>Una lista de <strong>argumentos</strong> para la función, encerrados entre paréntesis y separados por comas (,).</li>
+<li>Las <strong>sentencias</strong> JavaScript que definen la función, encerradas por llaves, { }.</li>
 </ul>
 </li>
 <li>Ejemplo:</li>
 </ul>
-<pre><code>function cuadrado(number) {
-  return number * number;
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#66d9ef">function</span> <span style="color:#a6e22e">cuadrado</span>(<span style="color:#a6e22e">number</span>) {
+  <span style="color:#66d9ef">return</span> <span style="color:#a6e22e">number</span> <span style="color:#f92672">*</span> <span style="color:#a6e22e">number</span>;
 }
-</code></pre><h3 id="funciones-declarativas-y-anonimas">funciones declarativas y anonimas</h3>
+</code></pre></div><h3 id="funciones-declarativas-y-anónimas">Funciones <strong>declarativas</strong> y <strong>anónimas</strong></h3>
 <h4 id="funciones-declarativas">Funciones Declarativas:</h4>
 <ul>
-<li>En las funciones declarativas, utilizamos la palabra reservada function al inicio para poder declarar la función:</li>
+<li>En las funciones declarativas, utilizamos la palabra reservada <strong>function</strong> al inicio para poder declarar la función:</li>
 </ul>
-<pre><code>function saludar(nombre) {
-   console.log(`Hola ${nombre}`);
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#66d9ef">function</span> <span style="color:#a6e22e">saludar</span>(<span style="color:#a6e22e">nombre</span>) {
+  <span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#e6db74">`Hola </span><span style="color:#e6db74">${</span><span style="color:#a6e22e">nombre</span><span style="color:#e6db74">}</span><span style="color:#e6db74">`</span>);
 }
 
-saludar('Diego');
-</code></pre><h4 id="funciones-anónimas">Funciones Anónimas:</h4>
+<span style="color:#a6e22e">saludar</span>(<span style="color:#e6db74">&#34;Diego&#34;</span>);
+</code></pre></div><h4 id="funciones-anónimas">Funciones Anónimas:</h4>
 <ul>
-<li>En la expresión de función(anónimas), la declaración se inicia con la palabra reservada var, donde se generará una variable que guardará un función anónima.</li>
+<li>La declaración se inicia con la palabra reservada (<strong>var, let, const</strong>), donde se generará una variable que guardará un función anónima.</li>
 </ul>
-<pre><code>var nombre = function(nombre){
-   console.log(`Hola ${nombre}`)
-}
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#66d9ef">var</span> <span style="color:#a6e22e">nombre</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">function</span> (<span style="color:#a6e22e">nombre</span>) {
+  <span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#e6db74">`Hola </span><span style="color:#e6db74">${</span><span style="color:#a6e22e">nombre</span><span style="color:#e6db74">}</span><span style="color:#e6db74">`</span>);
+};
 
-nombre(‘Diego’);
-</code></pre><h4 id="en-una-funcion-imprime-un-numero-del-0-hasta-el-que-el-usuario-quiere">En una funcion imprime un numero del 0 hasta el que el usuario quiere:</h4>
-<pre><code>var num = prompt(&quot;introduce un numero&quot;);
+<span style="color:#a6e22e">nombre</span>(<span style="color:#e6db74">`Diego`</span>);
+</code></pre></div><h4 id="en-una-funcion-imprime-un-numero-del-0-hasta-el-que-el-usuario-quiere">En una funcion imprime un numero del 0 hasta el que el usuario quiere:</h4>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#66d9ef">var</span> <span style="color:#a6e22e">num</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">prompt</span>(<span style="color:#e6db74">&#34;introduce un numero&#34;</span>);
 
-function cuenta(num){
-    for(var i=1; i&lt;=num; i++){
-        document.write(i+&quot;\n&quot;);
-    }
- }cuenta(num);
-</code></pre><h4 id="funcion-que-convierte-cadenas-con-minusculas-a-cadenas-con-mayusculas">Funcion que convierte cadenas con minusculas a cadenas con mayusculas</h4>
-<pre><code>var nom =  prompt(&quot;Ingresa tu nombre&quot;);
-function NombreMayus(nom){
-nombre = nom.toUpperCase()
-console.log(nombre);
-}NombreMayus(nom);
-</code></pre><h4 id="funcion-que-calcula-el-cuadrado-de-una-funcion">Funcion que calcula el cuadrado de una funcion</h4>
-<pre><code>function cuadrado(numero) {
-    return numero * numero;
+<span style="color:#66d9ef">function</span> <span style="color:#a6e22e">cuenta</span>(<span style="color:#a6e22e">num</span>) {
+  <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">var</span> <span style="color:#a6e22e">i</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>; <span style="color:#a6e22e">i</span> <span style="color:#f92672">&lt;=</span> <span style="color:#a6e22e">num</span>; <span style="color:#a6e22e">i</span><span style="color:#f92672">++</span>) {
+    document.<span style="color:#a6e22e">write</span>(<span style="color:#a6e22e">i</span> <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34;\n&#34;</span>);
+  }
 }
-console.log( cuadrado(5));
-</code></pre><h4 id="funcion-dentro-de-otra-funcion--closure">Funcion dentro de otra Funcion // closure</h4>
-<pre><code>function accion(hablar) {
-hablar();
+<span style="color:#a6e22e">cuenta</span>(<span style="color:#a6e22e">num</span>);
+</code></pre></div><h4 id="funcion-que-convierte-cadenas-con-minusculas-a-cadenas-con-mayusculas">Funcion que convierte cadenas con minusculas a cadenas con mayusculas</h4>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#66d9ef">var</span> <span style="color:#a6e22e">nom</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">prompt</span>(<span style="color:#e6db74">&#34;Ingresa tu nombre&#34;</span>);
+<span style="color:#66d9ef">function</span> <span style="color:#a6e22e">NombreMayus</span>(<span style="color:#a6e22e">nom</span>) {
+  <span style="color:#a6e22e">nombre</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">nom</span>.<span style="color:#a6e22e">toUpperCase</span>();
+  <span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#a6e22e">nombre</span>);
 }
-function decirHola() {
-    console.log(&quot;hola amicos&quot;)
+<span style="color:#a6e22e">NombreMayus</span>(<span style="color:#a6e22e">nom</span>);
+</code></pre></div><h4 id="funcion-que-calcula-el-cuadrado-de-una-funcion">Funcion que calcula el cuadrado de una funcion</h4>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#66d9ef">function</span> <span style="color:#a6e22e">cuadrado</span>(<span style="color:#a6e22e">numero</span>) {
+  <span style="color:#66d9ef">return</span> <span style="color:#a6e22e">numero</span> <span style="color:#f92672">*</span> <span style="color:#a6e22e">numero</span>;
 }
-accion(decirHola);
-</code></pre><h4 id="otro-ejemplo-de-closure">otro ejemplo de closure</h4>
-<pre><code>function accion(hablar) {
-hablar()
+<span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#a6e22e">cuadrado</span>(<span style="color:#ae81ff">5</span>));
+</code></pre></div><h3 id="closure">Closure</h3>
+<p>Un closure es una función dentro de otra funcion que está disponible sólo dentro del cuerpo de esa fucnión y que tiene accesos a las variables de la función dónde fue declarda.</p>
+<ul>
+<li>sintaxis</li>
+</ul>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#75715e">// funcion padre
+</span><span style="color:#75715e"></span><span style="color:#66d9ef">function</span> <span style="color:#a6e22e">iniciar</span>() {
+  <span style="color:#66d9ef">let</span> <span style="color:#a6e22e">name</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;luis&#34;</span>;
+  <span style="color:#75715e">// funcion hijo
+</span><span style="color:#75715e"></span>  <span style="color:#66d9ef">function</span> <span style="color:#a6e22e">mostrar</span>() {
+    <span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#a6e22e">name</span>);
+  }
+  <span style="color:#a6e22e">mostrar</span>();
 }
-accion(function decirHola(){
-    console.log(&quot;hola amicos como estan&quot;);
-    }
-);
-</code></pre>
+<span style="color:#a6e22e">iniciar</span>();
+</code></pre></div><h4 id="otros-ejemplos-de-closure">otros ejemplos de closure</h4>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#75715e">// Funcion 1 () Closure
+</span><span style="color:#75715e"></span><span style="color:#66d9ef">function</span> <span style="color:#a6e22e">fun1</span>() {
+  <span style="color:#a6e22e">fun2</span>();
+}
+<span style="color:#a6e22e">fun1</span>(<span style="color:#a6e22e">fun2</span>);
+<span style="color:#75715e">// Funcion 2
+</span><span style="color:#75715e"></span><span style="color:#66d9ef">function</span> <span style="color:#a6e22e">fun2</span>() {
+  <span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#e6db74">&#34;Adios mundo&#34;</span>);
+}
+</code></pre></div><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#66d9ef">function</span> <span style="color:#a6e22e">accion</span>(<span style="color:#a6e22e">hablar</span>) {
+  <span style="color:#a6e22e">hablar</span>();
+}
+<span style="color:#66d9ef">function</span> <span style="color:#a6e22e">decirHola</span>() {
+  <span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#e6db74">&#34;hola amicos&#34;</span>);
+}
+<span style="color:#a6e22e">accion</span>(<span style="color:#a6e22e">decirHola</span>);
+</code></pre></div><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#66d9ef">function</span> <span style="color:#a6e22e">accion</span>(<span style="color:#a6e22e">hablar</span>) {
+  <span style="color:#a6e22e">hablar</span>();
+}
+<span style="color:#a6e22e">accion</span>(<span style="color:#66d9ef">function</span> <span style="color:#a6e22e">decirHola</span>() {
+  <span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#e6db74">&#34;hola amicos como estan&#34;</span>);
+});
+</code></pre></div>
 
 <footer class="footline">
 	
@@ -796,19 +820,19 @@ accion(function decirHola(){
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/guide/js/clipboard.min.js?1610587814"></script>
-    <script src="/guide/js/perfect-scrollbar.min.js?1610587814"></script>
-    <script src="/guide/js/perfect-scrollbar.jquery.min.js?1610587814"></script>
-    <script src="/guide/js/jquery.sticky.js?1610587814"></script>
-    <script src="/guide/js/featherlight.min.js?1610587814"></script>
-    <script src="/guide/js/highlight.pack.js?1610587814"></script>
+    <script src="/guide/js/clipboard.min.js?1614723805"></script>
+    <script src="/guide/js/perfect-scrollbar.min.js?1614723805"></script>
+    <script src="/guide/js/perfect-scrollbar.jquery.min.js?1614723805"></script>
+    <script src="/guide/js/jquery.sticky.js?1614723805"></script>
+    <script src="/guide/js/featherlight.min.js?1614723805"></script>
+    <script src="/guide/js/highlight.pack.js?1614723805"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/guide/js/modernizr.custom-3.6.0.js?1610587814"></script>
-    <script src="/guide/js/learn.js?1610587814"></script>
-    <script src="/guide/js/hugo-learn.js?1610587814"></script>
+    <script src="/guide/js/modernizr.custom-3.6.0.js?1614723805"></script>
+    <script src="/guide/js/learn.js?1614723805"></script>
+    <script src="/guide/js/hugo-learn.js?1614723805"></script>
     
         
-            <script src="/guide/mermaid/mermaid.js?1610587814"></script>
+            <script src="/guide/mermaid/mermaid.js?1614723805"></script>
         
         <script>
             mermaid.initialize({ startOnLoad: true });

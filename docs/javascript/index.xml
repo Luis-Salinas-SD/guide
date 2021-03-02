@@ -13,7 +13,7 @@
       
       <guid>https://luis-salinas-sd.github.io/guide/javascript/page-1/</guid>
       <description>Bases de Javascript Bienvenido a una breve explicación sobre lo basico para entender JavaScript Variables y Constantes  Las variables son espacios de memoria reservados para un valor, este puede ser reasignable, se pueden declarar con &amp;ldquo;var&amp;rdquo; ó &amp;ldquo;let&amp;rdquo;.
-let nombre = &amp;quot;Luis&amp;quot;; var apellido = prompt(&#39;¿Cual es su apellido?&#39;); Las constantes son espacios de memoria pero el valor no puede ser reasignado.(tambien son variables).
+let nombre = &amp;#34;Luis&amp;#34;; var apellido = prompt(&amp;#34;¿Cual es su apellido?&amp;#34;); Las constantes son espacios de memoria pero el valor no puede ser reasignado.(tambien son variables).
 const pi = 3.1416;  const: no puede cambiar el valor.</description>
     </item>
     
@@ -23,8 +23,8 @@ const pi = 3.1416;  const: no puede cambiar el valor.</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://luis-salinas-sd.github.io/guide/javascript/page-2/</guid>
-      <description>Condicional if Si la primer condicion se cumple, la siguiente no se ejecuta, pero si la primera condición no se cumple se ejecuta la segunda en el if(){}else{}
- condicion if  if(24 === 24 || &amp;quot;hola&amp;quot; === &amp;quot;hola&amp;quot;){ alert(true); }else{ alert(false); } //true  condicion if( ){ }else{ }  //! Condicional if()else let nota = 10; if (nota &amp;lt;= 7) { console.log(&amp;quot;malo&amp;quot;); }else if (nota == 8) { console.</description>
+      <description>Condicional if y if-else Si la primer condicion se cumple, la siguiente no se ejecuta, pero si la primera condición no se cumple se ejecuta la segunda en el if(){}else{}
+ condicion if  if (24 === 24 || &amp;#34;hola&amp;#34; === &amp;#34;hola&amp;#34;) { alert(true); } else { alert(false); } //true  condicion if( ){ }else{ }  //! Condicional if()else let nota = 10; if (nota &amp;lt;= 7) { console.log(&amp;#34;malo&amp;#34;); } else if (nota == 8) { console.</description>
     </item>
     
     <item>
@@ -33,8 +33,8 @@ const pi = 3.1416;  const: no puede cambiar el valor.</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://luis-salinas-sd.github.io/guide/javascript/page-3/</guid>
-      <description>Ciclos  Ciclo FOR imprime una serie del 1 al 10  for (var i = 1; i &amp;lt;= 15; i++) { alert(i); }  imprime los multiplos de 7  for (let i = 0; i &amp;lt; 50; i++) { if ((i % 7) === 0) { console.log(i); } } uso de continue
- continue = ignora la sentencia no imprimir los multiplos de 7  for (let i = 0; i &amp;lt; 50; i++) { if ((i % 7) === 0) { continue console.</description>
+      <description>Ciclos Ciclo For El bucle FOR se utiliza para repetir una o más instrucciones un determinado número de veces. De entre todos los bucles, el FOR se suele utilizar cuando sabemos seguro el número de veces que queremos que se ejecute. La sintaxis del bucle for se muestra a continuación.
+for (inicialización; condición; actualización) { //sentencias a ejecutar en cada iteración }  imprime una serie del 1 al 10  for (var i = 1; i &amp;lt;= 15; i++) { alert(i); }  imprime los multiplos de 7  for (let i = 0; i &amp;lt; 50; i++) { if (i % 7 === 0) { console.</description>
     </item>
     
     <item>
@@ -43,7 +43,7 @@ const pi = 3.1416;  const: no puede cambiar el valor.</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://luis-salinas-sd.github.io/guide/javascript/page-4/</guid>
-      <description>Funciones  La definición de una función (también llamada declaración de función o sentencia de función) consiste de la palabra clave (reservada) function, seguida por:  El nombre de la función (opcional). Una lista de argumentos para la función, encerrados entre paréntesis y separados por comas (,). Las sentencias JavaScript que definen la función, encerradas por llaves, { }.   Ejemplo:  function cuadrado(number) { return number * number; } funciones declarativas y anonimas Funciones Declarativas:  En las funciones declarativas, utilizamos la palabra reservada function al inicio para poder declarar la función:  function saludar(nombre) { console.</description>
+      <description>Funciones  La definición de una función consiste de la palabra clave (reservada) function, seguida por:  El nombre de la función (opcional). Una lista de argumentos para la función, encerrados entre paréntesis y separados por comas (,). Las sentencias JavaScript que definen la función, encerradas por llaves, { }.   Ejemplo:  function cuadrado(number) { return number * number; } Funciones declarativas y anónimas Funciones Declarativas:  En las funciones declarativas, utilizamos la palabra reservada function al inicio para poder declarar la función:  function saludar(nombre) { console.</description>
     </item>
     
     <item>
