@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Javascript on My New Hugo Site</title>
+    <title>Javascript on Documentación</title>
     <link>https://luis-salinas-sd.github.io/guide/javascript/</link>
-    <description>Recent content in Javascript on My New Hugo Site</description>
+    <description>Recent content in Javascript on Documentación</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://luis-salinas-sd.github.io/guide/javascript/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -12,9 +12,9 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://luis-salinas-sd.github.io/guide/javascript/page-1/</guid>
-      <description>Bases de Javascript Bienvenido a una breve explicación sobre lo basico para entender JavaScript Variables y Constantes  Las variables son espacios de memoria reservados para un valor, este puede ser reasignable, se pueden declarar con &amp;ldquo;var&amp;rdquo; ó &amp;ldquo;let&amp;rdquo;.
-let nombre = &amp;#34;Luis&amp;#34;; var apellido = prompt(&amp;#34;¿Cual es su apellido?&amp;#34;); Las constantes son espacios de memoria pero el valor no puede ser reasignado.(tambien son variables).
-const pi = 3.1416;  const: no puede cambiar el valor.</description>
+      <description>Bases de Javascript Bienvenido a una breve explicación sobre lo basico para entender JavaScript
+Contenido:  Variables y Constantes.   Variables y Constantes Las variables son espacios de memoria reservados para un valor, este puede ser reasignable, se pueden declarar con &amp;ldquo;var&amp;rdquo; ó &amp;ldquo;let&amp;rdquo;.
+let nombre = &amp;#34;Luis&amp;#34;; var apellido = prompt(&amp;#34;¿Cual es su apellido?&amp;#34;); Las constantes son espacios de memoria pero el valor no puede ser reasignado.(tambien son variables).</description>
     </item>
     
     <item>
@@ -28,13 +28,12 @@ const pi = 3.1416;  const: no puede cambiar el valor.</description>
     </item>
     
     <item>
-      <title>Ciclos</title>
+      <title>Funciones</title>
       <link>https://luis-salinas-sd.github.io/guide/javascript/page-3/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://luis-salinas-sd.github.io/guide/javascript/page-3/</guid>
-      <description>Ciclos Ciclo For El bucle FOR se utiliza para repetir una o más instrucciones un determinado número de veces. De entre todos los bucles, el FOR se suele utilizar cuando sabemos seguro el número de veces que queremos que se ejecute. La sintaxis del bucle for se muestra a continuación.
-for (inicialización; condición; actualización) { //sentencias a ejecutar en cada iteración }  imprime una serie del 1 al 10  for (var i = 1; i &amp;lt;= 15; i++) { alert(i); }  imprime los multiplos de 7  for (let i = 0; i &amp;lt; 50; i++) { if (i % 7 === 0) { console.</description>
+      <description>Funciones  La definición de una función consiste de la palabra clave (reservada) function, seguida por:  El nombre de la función (opcional). Una lista de argumentos para la función, encerrados entre paréntesis y separados por comas (,). Las sentencias JavaScript que definen la función, encerradas por llaves, { }.   Ejemplo:  function cuadrado(number) { return number * number; } Funciones declarativas y anónimas Funciones Declarativas:  En las funciones declarativas, utilizamos la palabra reservada function al inicio para poder declarar la función:  function saludar(nombre) { console.</description>
     </item>
     
     <item>
