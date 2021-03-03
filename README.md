@@ -24,14 +24,14 @@
 
 - Clonar el repositorio desde git
 
-```bash
-  $ git clone https://github.com/Luis-Salinas-SD/guide.git
+```git
+git clone https://github.com/Luis-Salinas-SD/guide.git
 ```
 
 - Una vez en el directorio **guide** debemos ejecutar el siguiente comando.
 
-```bash
-git submodule add https://github.com/Luis-Salinas-SD/hugoo.git themes/hugoo
+```git
+git submodule add https://github.com/Luis-Salinas-SD/hugoo.git themes/hugo
 ```
 
 - Debemos remplazar el archivo **theme.css** que se encuntra en la dirección **guide/themes/hugoo/static/static/css** por el archivo **_theme.css_** que se encutra en el home del directorio **guide**.
