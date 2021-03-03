@@ -7,9 +7,12 @@ pre = "<b>1. </b>"
 
 # Bases de Javascript
 
-### Bienvenido a una breve explicación sobre lo basico para entender JavaScript
-
-### Variables y Constantes <a id="chapter-1"></a>
+Bienvenido a una breve explicación sobre lo basico para entender JavaScript
+## Contenido:
+* [Variables y Constantes.](#item1)
+* 
+<a name="item1"></a>
+# Variables y Constantes
 
 Las variables son espacios de memoria reservados para un valor, este puede ser reasignable, se pueden declarar con **_"var"_** ó **_"let"_**.
 
