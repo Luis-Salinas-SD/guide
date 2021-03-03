@@ -1,5 +1,5 @@
 baseURL = "https://luis-salinas-sd.github.io/guide/"
 languageCode = "en-us"
-title = "Documentación"
-theme = "hugooo"
+title = "Dox"
+theme = "hugoo"
 publishDir = "docs"

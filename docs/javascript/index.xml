@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Javascript on Documentación</title>
+    <title>Javascript on Dox</title>
     <link>https://luis-salinas-sd.github.io/guide/javascript/</link>
-    <description>Recent content in Javascript on Documentación</description>
+    <description>Recent content in Javascript on Dox</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://luis-salinas-sd.github.io/guide/javascript/index.xml" rel="self" type="application/rss+xml" />
     <item>
