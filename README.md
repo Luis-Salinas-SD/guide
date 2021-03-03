@@ -31,7 +31,7 @@
 - Una vez en el directorio **guide** debemos ejecutar el siguiente comando.
 
 ```bash
-git submodule add https://github.com/matcornic/hugo-theme-learn.git themes/hugoo
+git submodule add https://github.com/Luis-Salinas-SD/hugoo.git themes/hugoo
 ```
 
 - Debemos remplazar el archivo **theme.css** que se encuntra en la dirección **guide/themes/hugoo/static/static/css** por el archivo **_theme.css_** que se encutra en el home del directorio **guide**.
