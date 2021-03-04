@@ -8,10 +8,7 @@ pre = "<b>1. </b>"
 # Bases de Javascript
 
 Bienvenido a una breve explicación sobre lo basico para entender JavaScript
-## Contenido:
-* [Variables y Constantes.](#item1)
-* 
-<a name="item1"></a>
+
 # Variables y Constantes
 
 Las variables son espacios de memoria reservados para un valor, este puede ser reasignable, se pueden declarar con **_"var"_** ó **_"let"_**.
@@ -33,7 +30,7 @@ const pi = 3.1416;
 
 > **var:** el scope es global (es mejor dejar de utilizar var).
 
-### Números y Operadores
+# Números y Operadores
 
 Operaciones aritmeticas basicas.
 
@@ -47,7 +44,7 @@ let cuad = 2 ** 3; // 8
 console.log(cuad);
 ```
 
-### Booleans
+# Booleans
 
 Los booleanos solo retornar un valor **_true_** o **_false_**.
 
@@ -58,9 +55,9 @@ new Boolean(valor);
 > Valores que retornan **_false_**
 > (**_undefined, NaN, null, 0, -0, false_**).
 
-### Operadores de Comparación.
+# Operadores de Comparación.
 
-igualdad == & identico ===
+### Igualdad **==** & Identico **===**
 
 ```javascript
 var igual;
@@ -76,21 +73,21 @@ igual = "a" === "a";
 
 > **===** el comparador identico evalua el tipo de dato y el valor.
 
-desigualdad !==
+### Desigualdad **!==**
 
 ```javascript
 var desigual;
 desigual = "adios" !== "hola"; //true
 ```
 
-Mayor que >
+### Mayor que **>**
 
 ```javascript
 var mayor;
 mayor = 6 >= 6; //true
 ```
 
-Menor que <
+### Menor que **<**
 
 ```javascript
 var menor;
@@ -99,7 +96,7 @@ menor = 6 <= 6; //true
 
 <a id="chapter-2"></a>
 
-### Operadores Lógicos
+# Operadores Lógicos
 
 Los operadores lógicos se usan típicamente con valores Boolean. En tal caso, regresan un valor Boolean (True ó False) y son los siguientes:
 
@@ -107,7 +104,7 @@ Los operadores lógicos se usan típicamente con valores Boolean. En tal caso, r
 - OR
 - NOT
 
-#### Operador AND
+## Operador AND
 
 - EN EL OPERADOR **_AND_** AMBAS CONDICIONES DEBEN SER VERDADERAS(TRUE) DE LO CONTRARIO RETORNA UN VALOR (FALSE)
 
@@ -127,7 +124,7 @@ if (24 === 24 && "hola" === 13) {
 // false
 ```
 
-#### Operador OR
+## Operador OR
 
 - EN EL OPERADOR OR **SOLO UNA CONDICION DEBE SER VERDADERA**
 
@@ -147,7 +144,7 @@ if (24 === 24 || "hola" === "ADIOS") {
 //false
 ```
 
-#### Operador NOT
+## Operador NOT
 
 - sirve para **negar** una condicion verdadera con el simbolo !
 

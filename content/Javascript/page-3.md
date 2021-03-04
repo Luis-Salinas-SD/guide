@@ -5,7 +5,7 @@ weight = 4
 pre = "<b>4. </b>"
 +++
 
-### Funciones
+# Funciones
 
 - La definición de una función consiste de la palabra clave (reservada) function, seguida por:
   - El **nombre** de la función (opcional).
@@ -19,9 +19,9 @@ function cuadrado(number) {
 }
 ```
 
-### Funciones **declarativas** y **anónimas**
+## Funciones **declarativas** y **anónimas**
 
-#### Funciones Declarativas:
+### Funciones Declarativas:
 
 - En las funciones declarativas, utilizamos la palabra reservada **function** al inicio para poder declarar la función:
 
@@ -33,7 +33,7 @@ function saludar(nombre) {
 saludar("Diego");
 ```
 
-#### Funciones Anónimas:
+### Funciones Anónimas:
 
 - La declaración se inicia con la palabra reservada (**var, let, const**), donde se generará una variable que guardará un función anónima.
 
@@ -45,7 +45,9 @@ var nombre = function (nombre) {
 nombre(`Diego`);
 ```
 
-#### En una funcion imprime un numero del 0 hasta el que el usuario quiere:
+### Ejercicios:
+
+- En una funcion imprime un numero del 0 hasta el que el usuario quiere:
 
 ```javascript
 var num = prompt("introduce un numero");
@@ -58,7 +60,7 @@ function cuenta(num) {
 cuenta(num);
 ```
 
-#### Funcion que convierte cadenas con minusculas a cadenas con mayusculas
+- Funcion que convierte cadenas con minusculas a cadenas con mayusculas
 
 ```javascript
 var nom = prompt("Ingresa tu nombre");
@@ -69,7 +71,7 @@ function NombreMayus(nom) {
 NombreMayus(nom);
 ```
 
-#### Funcion que calcula el cuadrado de una funcion
+- Funcion que calcula el cuadrado de una funcion
 
 ```javascript
 function cuadrado(numero) {

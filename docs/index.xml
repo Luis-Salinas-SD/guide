@@ -13,8 +13,9 @@
       
       <guid>https://luis-salinas-sd.github.io/guide/javascript/page-1/</guid>
       <description>Bases de Javascript Bienvenido a una breve explicación sobre lo basico para entender JavaScript
-Contenido:  Variables y Constantes.   Variables y Constantes Las variables son espacios de memoria reservados para un valor, este puede ser reasignable, se pueden declarar con &amp;ldquo;var&amp;rdquo; ó &amp;ldquo;let&amp;rdquo;.
-let nombre = &amp;#34;Luis&amp;#34;; var apellido = prompt(&amp;#34;¿Cual es su apellido?&amp;#34;); Las constantes son espacios de memoria pero el valor no puede ser reasignado.(tambien son variables).</description>
+Variables y Constantes Las variables son espacios de memoria reservados para un valor, este puede ser reasignable, se pueden declarar con &amp;ldquo;var&amp;rdquo; ó &amp;ldquo;let&amp;rdquo;.
+let nombre = &amp;#34;Luis&amp;#34;; var apellido = prompt(&amp;#34;¿Cual es su apellido?&amp;#34;); Las constantes son espacios de memoria pero el valor no puede ser reasignado.(tambien son variables).
+const pi = 3.1416;  const: no puede cambiar el valor.</description>
     </item>
     
     <item>
