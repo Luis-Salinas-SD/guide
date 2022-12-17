@@ -13,6 +13,7 @@
 ```bash
   $ hugo serve -D &
 ```
+> El proyecto corre en *localhost:1313*
 
 ###### Para modificar aspectos del tema actual el archivo (theme.css) se encuentra en la siguiente ruta.
 
