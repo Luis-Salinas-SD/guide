@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="generator" content="Hugo 0.80.0" />
+    <meta name="generator" content="Hugo 0.108.0">
     <meta name="description" content="">
 
 
@@ -12,19 +12,19 @@
     <title>Clases :: Dox</title>
 
     
-    <link href="/guide/css/nucleus.css?1614837600" rel="stylesheet">
-    <link href="/guide/css/fontawesome-all.min.css?1614837600" rel="stylesheet">
-    <link href="/guide/css/hybrid.css?1614837600" rel="stylesheet">
-    <link href="/guide/css/featherlight.min.css?1614837600" rel="stylesheet">
-    <link href="/guide/css/perfect-scrollbar.min.css?1614837600" rel="stylesheet">
-    <link href="/guide/css/auto-complete.css?1614837600" rel="stylesheet">
-    <link href="/guide/css/atom-one-dark-reasonable.css?1614837600" rel="stylesheet">
-    <link href="/guide/css/theme.css?1614837600" rel="stylesheet">
-    <link href="/guide/css/hugo-theme.css?1614837600" rel="stylesheet">
+    <link href="/guide/css/nucleus.css?1671335010" rel="stylesheet">
+    <link href="/guide/css/fontawesome-all.min.css?1671335010" rel="stylesheet">
+    <link href="/guide/css/hybrid.css?1671335010" rel="stylesheet">
+    <link href="/guide/css/featherlight.min.css?1671335010" rel="stylesheet">
+    <link href="/guide/css/perfect-scrollbar.min.css?1671335010" rel="stylesheet">
+    <link href="/guide/css/auto-complete.css?1671335010" rel="stylesheet">
+    <link href="/guide/css/atom-one-dark-reasonable.css?1671335010" rel="stylesheet">
+    <link href="/guide/css/theme.css?1671335010" rel="stylesheet">
+    <link href="/guide/css/hugo-theme.css?1671335010" rel="stylesheet">
     
     
 
-    <script src="/guide/js/jquery-3.3.1.min.js?1614837600"></script>
+    <script src="/guide/js/jquery-3.3.1.min.js?1671335010"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -69,14 +69,14 @@
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="/guide/js/lunr.min.js?1614837600"></script>
-<script type="text/javascript" src="/guide/js/auto-complete.js?1614837600"></script>
+<script type="text/javascript" src="/guide/js/lunr.min.js?1671335010"></script>
+<script type="text/javascript" src="/guide/js/auto-complete.js?1671335010"></script>
 <script type="text/javascript">
     
         var baseurl = "https:\/\/luis-salinas-sd.github.io\/guide\/";
     
 </script>
-<script type="text/javascript" src="/guide/js/search.js?1614837600"></script>
+<script type="text/javascript" src="/guide/js/search.js?1671335010"></script>
 
     
   </div>
@@ -384,6 +384,30 @@
  
 
           
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/guide/react/" title="React" class="dd-item
+        
+        
+        
+        ">
+      <a href="/guide/react/">
+          <b>3. </b>React
+          
+      </a>
+      
+      
+    </li>
+  
+ 
+
+          
         
     </ul>
 
@@ -469,7 +493,7 @@
 <li>Las clases no reciben parametros.</li>
 <li>Las clases tienen un metodo especial que se llama <strong>constructor</strong> y recibe las propiedades del objeto, este se ejecuta en el momento de instanciar la clase.</li>
 </ul>
-<pre><code>// ++++++++++ clase ++++++++++
+<pre tabindex="0"><code>// ++++++++++ clase ++++++++++
 class Perro{
     // ++++++++++ constructor ++++++++++
     constructor(nombre,genero){
@@ -480,18 +504,18 @@ class Perro{
 
     //++++++++++ Metodo ++++++++++
     ladrad(){
-        console.log(&quot;Guaf Guaf&quot;);
+        console.log(&#34;Guaf Guaf&#34;);
     }//++++++++++ Metodo ++++++++++
     
 }// ++++++++++ clase ++++++++++
 
-const simba = new Perro(&quot;simba&quot;,&quot;macho&quot;);
+const simba = new Perro(&#34;simba&#34;,&#34;macho&#34;);
 console.log(simba);	//mandar a llamar al objeto
 simba.ladrad();	// mandar a llamar al metodo
 </code></pre><h3 id="herencia">Herencia</h3>
 <p>Para utilizar herencia se necesita la palabra reservada <strong>extends</strong> seguido de la clase padre o de la que quiere que herede.</p>
 <p>la palabra reservada <strong>super()</strong> manda a llamar al constructor de la calse padre.</p>
-<pre><code>class Perro {
+<pre tabindex="0"><code>class Perro {
     // ++++++++++ constructor ++++++++++
     constructor(nombre, genero) {
         //atributos
@@ -504,12 +528,12 @@ simba.ladrad();	// mandar a llamar al metodo
         console.log(` guaf guaf mi nombre es ${this.nombre}`);
     }
     caminar(){
-        console.log(&quot;Toy caminando&quot;);
+        console.log(&#34;Toy caminando&#34;);
     }
     //++++++++++ Metodo ++++++++++
 } // ++++++++++ clase ++++++++++
 
-const simba = new Perro(&quot;simba&quot;, &quot;macho&quot;);
+const simba = new Perro(&#34;simba&#34;, &#34;macho&#34;);
 console.log(simba);//! mandar a llamar al objeto
 simba.ladrad();//! mandar a llamar al metodo
 
@@ -524,7 +548,7 @@ class Gato extends Perro{
         console.log(`miau miau mi nombre es ${this.nombre}`);
     }
 }
-const beto = new Gato(&quot;beto&quot;,&quot;hembra&quot;,&quot;blanco&quot;);
+const beto = new Gato(&#34;beto&#34;,&#34;hembra&#34;,&#34;blanco&#34;);
 console.log(beto);
 beto.ladrad();
 beto.caminar();
@@ -778,6 +802,22 @@ beto.caminar();
             
         
                     
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
             
         
 
@@ -800,19 +840,19 @@ beto.caminar();
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/guide/js/clipboard.min.js?1614837600"></script>
-    <script src="/guide/js/perfect-scrollbar.min.js?1614837600"></script>
-    <script src="/guide/js/perfect-scrollbar.jquery.min.js?1614837600"></script>
-    <script src="/guide/js/jquery.sticky.js?1614837600"></script>
-    <script src="/guide/js/featherlight.min.js?1614837600"></script>
-    <script src="/guide/js/highlight.pack.js?1614837600"></script>
+    <script src="/guide/js/clipboard.min.js?1671335010"></script>
+    <script src="/guide/js/perfect-scrollbar.min.js?1671335010"></script>
+    <script src="/guide/js/perfect-scrollbar.jquery.min.js?1671335010"></script>
+    <script src="/guide/js/jquery.sticky.js?1671335010"></script>
+    <script src="/guide/js/featherlight.min.js?1671335010"></script>
+    <script src="/guide/js/highlight.pack.js?1671335010"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/guide/js/modernizr.custom-3.6.0.js?1614837600"></script>
-    <script src="/guide/js/learn.js?1614837600"></script>
-    <script src="/guide/js/hugo-learn.js?1614837600"></script>
+    <script src="/guide/js/modernizr.custom-3.6.0.js?1671335010"></script>
+    <script src="/guide/js/learn.js?1671335010"></script>
+    <script src="/guide/js/hugo-learn.js?1671335010"></script>
     
         
-            <script src="/guide/mermaid/mermaid.js?1614837600"></script>
+            <script src="/guide/mermaid/mermaid.js?1671335010"></script>
         
         <script>
             mermaid.initialize({ startOnLoad: true });

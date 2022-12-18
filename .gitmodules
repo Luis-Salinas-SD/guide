@@ -2,3 +2,12 @@
 	path = themes/hugo
 	url = https://github.com/Luis-Salinas-SD/hugoo.git
 
+[submodule "themes/themes/hugo"]
+	path = themes/themes/hugo
+	url = https://github.com/Luis-Salinas-SD/hugoo.git
+[submodule "themes/themes/hugoo"]
+	path = themes/themes/hugoo
+	url = https://github.com/Luis-Salinas-SD/hugoo.git
+[submodule "themes/hugoo"]
+	path = themes/hugoo
+	url = https://github.com/Luis-Salinas-SD/hugoo.git

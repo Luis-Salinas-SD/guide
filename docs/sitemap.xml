@@ -1,69 +1,39 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
     <loc>https://luis-salinas-sd.github.io/guide/javascript/page-1/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://luis-salinas-sd.github.io/guide/javascript/page-2/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://luis-salinas-sd.github.io/guide/javascript/page-3/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://luis-salinas-sd.github.io/guide/javascript/page-4/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://luis-salinas-sd.github.io/guide/javascript/page-5/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://luis-salinas-sd.github.io/guide/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://luis-salinas-sd.github.io/guide/javascript/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://luis-salinas-sd.github.io/guide/javascript/page-6/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://luis-salinas-sd.github.io/guide/javascript/page-7/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://luis-salinas-sd.github.io/guide/javascript/page-8/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://luis-salinas-sd.github.io/guide/javascript/page-9/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://luis-salinas-sd.github.io/guide/javascript/page-10/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://luis-salinas-sd.github.io/guide/javascript/page-11/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://luis-salinas-sd.github.io/guide/mysql/</loc>
-  </url>
-  
-  <url>
+  </url><url>
+    <loc>https://luis-salinas-sd.github.io/guide/react/</loc>
+  </url><url>
     <loc>https://luis-salinas-sd.github.io/guide/categories/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://luis-salinas-sd.github.io/guide/tags/</loc>
   </url>
-  
 </urlset>

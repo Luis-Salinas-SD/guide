@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="generator" content="Hugo 0.80.0" />
+    <meta name="generator" content="Hugo 0.108.0">
     <meta name="description" content="">
 
 
@@ -12,19 +12,19 @@
     <title>Arreglos :: Dox</title>
 
     
-    <link href="/guide/css/nucleus.css?1614837600" rel="stylesheet">
-    <link href="/guide/css/fontawesome-all.min.css?1614837600" rel="stylesheet">
-    <link href="/guide/css/hybrid.css?1614837600" rel="stylesheet">
-    <link href="/guide/css/featherlight.min.css?1614837600" rel="stylesheet">
-    <link href="/guide/css/perfect-scrollbar.min.css?1614837600" rel="stylesheet">
-    <link href="/guide/css/auto-complete.css?1614837600" rel="stylesheet">
-    <link href="/guide/css/atom-one-dark-reasonable.css?1614837600" rel="stylesheet">
-    <link href="/guide/css/theme.css?1614837600" rel="stylesheet">
-    <link href="/guide/css/hugo-theme.css?1614837600" rel="stylesheet">
+    <link href="/guide/css/nucleus.css?1671335010" rel="stylesheet">
+    <link href="/guide/css/fontawesome-all.min.css?1671335010" rel="stylesheet">
+    <link href="/guide/css/hybrid.css?1671335010" rel="stylesheet">
+    <link href="/guide/css/featherlight.min.css?1671335010" rel="stylesheet">
+    <link href="/guide/css/perfect-scrollbar.min.css?1671335010" rel="stylesheet">
+    <link href="/guide/css/auto-complete.css?1671335010" rel="stylesheet">
+    <link href="/guide/css/atom-one-dark-reasonable.css?1671335010" rel="stylesheet">
+    <link href="/guide/css/theme.css?1671335010" rel="stylesheet">
+    <link href="/guide/css/hugo-theme.css?1671335010" rel="stylesheet">
     
     
 
-    <script src="/guide/js/jquery-3.3.1.min.js?1614837600"></script>
+    <script src="/guide/js/jquery-3.3.1.min.js?1671335010"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -69,14 +69,14 @@
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="/guide/js/lunr.min.js?1614837600"></script>
-<script type="text/javascript" src="/guide/js/auto-complete.js?1614837600"></script>
+<script type="text/javascript" src="/guide/js/lunr.min.js?1671335010"></script>
+<script type="text/javascript" src="/guide/js/auto-complete.js?1671335010"></script>
 <script type="text/javascript">
     
         var baseurl = "https:\/\/luis-salinas-sd.github.io\/guide\/";
     
 </script>
-<script type="text/javascript" src="/guide/js/search.js?1614837600"></script>
+<script type="text/javascript" src="/guide/js/search.js?1671335010"></script>
 
     
   </div>
@@ -384,6 +384,30 @@
  
 
           
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/guide/react/" title="React" class="dd-item
+        
+        
+        
+        ">
+      <a href="/guide/react/">
+          <b>3. </b>React
+          
+      </a>
+      
+      
+    </li>
+  
+ 
+
+          
         
     </ul>
 
@@ -461,11 +485,11 @@
 <ul>
 <li>Declaración:</li>
 </ul>
-<pre><code>let arreglo = [&quot;hola&quot;, 1, true, {}];
+<pre tabindex="0"><code>let arreglo = [&#34;hola&#34;, 1, true, {}];
 </code></pre><ul>
 <li>Declración de un arreglo y recorrerlo con un <strong>for</strong></li>
 </ul>
-<pre><code>let arreglo = [5, 9, 6];
+<pre tabindex="0"><code>let arreglo = [5, 9, 6];
 
 for (let i = 0; i &lt; arreglo.length; i++) {
     const elemento = arreglo[i];
@@ -482,57 +506,57 @@ for (let i = 0; i &lt; arreglo.length; i++) {
 </ul>
 </li>
 </ul>
-<pre><code>let array = [50, 53, 100, 45];
+<pre tabindex="0"><code>let array = [50, 53, 100, 45];
 
 array.push(15); //agrega un elemento al final
 array.pop() // quita el ultimo elemento.
 
-array.unshift(&quot;hola&quot;); //agrega un elemento al incio
+array.unshift(&#34;hola&#34;); //agrega un elemento al incio
 array.shift(); //quita un elemento al inicio
 console.log(array);
 </code></pre><ul>
 <li>Agregar y quitar elementos de un arreglo en una <strong>posicion personalizada:</strong></li>
 </ul>
-<pre><code>let names = [&quot;luis&quot;, &quot;ana&quot;, &quot;dan&quot;, &quot;sergio&quot;, &quot;luchita&quot;, &quot;concha&quot;];
+<pre tabindex="0"><code>let names = [&#34;luis&#34;, &#34;ana&#34;, &#34;dan&#34;, &#34;sergio&#34;, &#34;luchita&#34;, &#34;concha&#34;];
 //             0       1      2       3         4          5
 //splice(#indice en el que se agrgaran, #cantidad de elementos que se van a eliminar #valores que se van a aregar 1,2,3...)
 
-names.splice(0, 0, 'Junico', 1);
+names.splice(0, 0, &#39;Junico&#39;, 1);
 console.log(names);
 
 //Elimina el valor o valores en la poscicon descrita en este en la posicion cero vamos a eliminar 3 elementos
 names.splice(0,3);
-console.log(names); // [&quot;sergio&quot;, &quot;luchita&quot;, &quot;concha&quot;]
+console.log(names); // [&#34;sergio&#34;, &#34;luchita&#34;, &#34;concha&#34;]
 
 // Slice extrae en un nuevo array los valores desde [start] hasta [end -1]: No modifia el array original.
 let nuevo = names.slice(1,3);
-console.log(nuevo); //[&quot;ana&quot;, &quot;dan&quot;]
+console.log(nuevo); //[&#34;ana&#34;, &#34;dan&#34;]
 </code></pre><h3 id="metodos-para-arreglos">Metodos para arreglos</h3>
 <p>1 El siguiente es el arreglo que utilizaremos para ejemplos:</p>
-<pre><code>let arreglo = [10,42,13,34,45,];
+<pre tabindex="0"><code>let arreglo = [10,42,13,34,45,];
 </code></pre><p>2 Recorrer un arreglo con <strong>For</strong></p>
-<pre><code>for (let x = 0; x &lt; arreglo.length; x++) {
+<pre tabindex="0"><code>for (let x = 0; x &lt; arreglo.length; x++) {
     console.log(arreglo[x]);
 }
 </code></pre><p>3 Recorrer un arreglo con <strong>for of</strong></p>
-<pre><code>for (const item of arreglo) {
+<pre tabindex="0"><code>for (const item of arreglo) {
     console.log(item);
 }
 </code></pre><p>4 <strong>forEache()</strong> sirve para recorrer un arreglo</p>
-<pre><code>arreglo.forEach(elemento =&gt; {console.log(elemento);});
+<pre tabindex="0"><code>arreglo.forEach(elemento =&gt; {console.log(elemento);});
 </code></pre><p>5 <strong>some</strong>devuelve true en caso de que el elemento se encuentre en el arreglo</p>
-<pre><code>console.log(arreglo.some(el =&gt; el === 45));
+<pre tabindex="0"><code>console.log(arreglo.some(el =&gt; el === 45));
 </code></pre><p>6 <strong>filter()</strong> sirve para eliminar un elemento del arreglo</p>
-<pre><code>arreglo = arreglo.filter((del)=&gt; del != 42)
+<pre tabindex="0"><code>arreglo = arreglo.filter((del)=&gt; del != 42)
 console.log(arreglo);
 </code></pre><p>7 <strong>find()</strong> metodo para buscar un elemento dentro del arreglo</p>
-<pre><code>elemento = arreglo.find( num =&gt; num === 10)
+<pre tabindex="0"><code>elemento = arreglo.find( num =&gt; num === 10)
 console.log(elemento);
 </code></pre><p>8 <strong>map()</strong> genera un nuevo arreglo para una operacion definida</p>
-<pre><code>let  cuadrado = arreglo.map( (num) =&gt; num * num)
+<pre tabindex="0"><code>let  cuadrado = arreglo.map( (num) =&gt; num * num)
 console.log(cuadrado);
 </code></pre><h3 id="ordenamiento">ordenamiento</h3>
-<pre><code>let arr = [5,6,9,8,5,1,5,8,9]
+<pre tabindex="0"><code>let arr = [5,6,9,8,5,1,5,8,9]
 
 console.log(arr.sort()); //[1, 5, 5, 5, 6, 8, 8, 9, 9] ordena de menor a mayor
 
@@ -787,6 +811,22 @@ console.log(arr.reverse()); //[9, 9, 8, 8, 6, 5, 5, 5, 1] ordena de mayor a meno
             
         
                     
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
             
         
 
@@ -809,19 +849,19 @@ console.log(arr.reverse()); //[9, 9, 8, 8, 6, 5, 5, 5, 1] ordena de mayor a meno
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/guide/js/clipboard.min.js?1614837600"></script>
-    <script src="/guide/js/perfect-scrollbar.min.js?1614837600"></script>
-    <script src="/guide/js/perfect-scrollbar.jquery.min.js?1614837600"></script>
-    <script src="/guide/js/jquery.sticky.js?1614837600"></script>
-    <script src="/guide/js/featherlight.min.js?1614837600"></script>
-    <script src="/guide/js/highlight.pack.js?1614837600"></script>
+    <script src="/guide/js/clipboard.min.js?1671335010"></script>
+    <script src="/guide/js/perfect-scrollbar.min.js?1671335010"></script>
+    <script src="/guide/js/perfect-scrollbar.jquery.min.js?1671335010"></script>
+    <script src="/guide/js/jquery.sticky.js?1671335010"></script>
+    <script src="/guide/js/featherlight.min.js?1671335010"></script>
+    <script src="/guide/js/highlight.pack.js?1671335010"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/guide/js/modernizr.custom-3.6.0.js?1614837600"></script>
-    <script src="/guide/js/learn.js?1614837600"></script>
-    <script src="/guide/js/hugo-learn.js?1614837600"></script>
+    <script src="/guide/js/modernizr.custom-3.6.0.js?1671335010"></script>
+    <script src="/guide/js/learn.js?1671335010"></script>
+    <script src="/guide/js/hugo-learn.js?1671335010"></script>
     
         
-            <script src="/guide/mermaid/mermaid.js?1614837600"></script>
+            <script src="/guide/mermaid/mermaid.js?1671335010"></script>
         
         <script>
             mermaid.initialize({ startOnLoad: true });
